@@ -1,12 +1,12 @@
 {
   "manifest_version": 2,
-  "name": "Paranoid Android Web Themes",
-  "version": "0.1",
+  "name": "Web Themes Framework",
+  "version": "0.1.1",
   "author": "Samantha Glocker",
   "permissions": ["activeTab"],
   "content_scripts": [{
       "matches": ["*://www.messenger.com/*","*://www.facebook.com/messages/*"],
       "js": ["js/injector.js"]
     }],
-  "web_accessible_resources": ["css/messenger.css"]
+  "web_accessible_resources": ["css/messenger.css","css/config.css"]
 }
