@@ -3,8 +3,9 @@
   --inputs:         #181B28;
   --screen:         #141721;
   --secondarytext:  #4B535E;
+  --whitetext:      #DEDEDE; /* Official */
   --yourtext:       #7BBFFA;
-  --replytext:      #7DC5CD;
+  --replytext:      #141721;
   --replybkg:       #7646ff;
   --contacts:       #7DC5CD;
 
@@ -21,7 +22,8 @@ body,
 
 /* Fiddle with reply text since it's applied to the element */
 ._nd_ ._hh7._6ybn {
-  background-color: var(--replybkg) !important;
+  background: rgb(90,50,230) !important;
+  background: linear-gradient(90deg, rgba(90,50,230,1) 0%, rgba(173,83,240,1) 100%) !important;
 }
 
 ._z4_ {
@@ -52,7 +54,6 @@ body,
 }
 
 ._6-xo,
-._17w2,
 ._58nk,
 ._58nk a:not([role="button"]),
 ._58al,
@@ -65,7 +66,6 @@ body,
 ._3szq,
 ._2i-c ._54nf ._54nh,
 ._4ik4,
-._6ybk span,
 ._1htf > span,
 ._19jt,
 ._374c,
@@ -82,6 +82,12 @@ body,
 ._3b4u,
 .uiInputLabelLabel {
     color: var(--yourtext) !important;
+}
+
+._17w2,
+._6ybk span
+{
+  color: var(--whitetext);
 }
 
 ._1ht6 {
