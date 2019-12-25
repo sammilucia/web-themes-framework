@@ -24,7 +24,7 @@ body,
 
 /* Fiddle with reply text since it's applied to the element */
 ._nd_ ._hh7._6ybn {
-  background: linear-gradient(130deg, var(--gradientleft), var(--gradientright)) !important;
+  background: linear-gradient(130deg, var(--gradientleft) 20%, var(--gradientright) 100%) !important;
 }
 
 ._z4_ {
