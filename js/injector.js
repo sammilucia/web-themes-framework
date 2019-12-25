@@ -1,13 +1,46 @@
 "use strict";
 
-// TODO: Add add specific CSS for specific websites
+// What site are we theming?
+let thisSite = window.location.host;
 
-let a     = chrome.extension.getURL("css/messenger.css"),
-    link  = document.createElement('link');
+// Insert the respective CSS
+if ( thisSite === "www.messenger.com" || thisSite === "www.facebook.com" ) {
+  doMessenger();
+}
+else if ( thisSite === "discordapp.com" ) {
+  doDiscord();
+}
 
-link.type = 'text/css';
-link.rel = 'stylesheet';
-link.id = "paranoidAndroid";
-link.href = a;
+// www.messenger.com and https://www.facebook.com/messages/
+function doMessenger() {
 
-document.head.appendChild(link);
+  // Debug
+  console.log('******** Web Theme: ' + thisSite + ' ********');
+
+  let a     = chrome.extension.getURL("css/messenger.css"),
+      link  = document.createElement('link');
+
+  link.type = 'text/css';
+  link.rel  = 'stylesheet';
+  link.id   = "webThemesFramework";
+  link.href = a;
+
+  document.head.appendChild(link);
+}
+
+// discordapp.com
+function doDiscord() {
+
+  // Debug
+  console.log('******** Web Theme: ' + thisSite + ' ********');
+
+  let a     = chrome.extension.getURL("css/discord.css"),
+      link  = document.createElement('link');
+
+  link.type = 'text/css';
+  link.rel  = 'stylesheet';
+  link.id   = "webThemesFramework";
+  link.href = a;
+
+  document.head.appendChild(link);
+}

@@ -1,0 +1,114 @@
+/* Define theme variables */
+:root {
+  --textinputs:     #181B28; /* Paranoid Android */
+  --pagecolor:      #141721; /* Paranoid Android */
+  --secondarytext:  #4B535E;
+  --whitetext:      #DEDEDE; /* Paranoid Android */
+  --bodytext:       #7DC5CD;
+  --purpletext:     #A44CE9;
+  --replytext:      #B3DCDE;
+  --replybkg:       #7646ff;
+  --contacts:       #7DC5CD; /* Paranoid Android */
+  --gradientleft:   rgba(90,50,230,0.9);
+  --gradientright:  rgba(173,83,240,0.8);
+
+  --screenfont:     'Source Code Variable', 'Source Code Pro', Helvetica, Arial, sans-serif;
+}
+
+/* This overrides Discord's own variables with our own */
+/* You shouldn't need to edit these, they will pull from the top variables */
+/* But you can if you want :) */
+.theme-dark {
+    --header-primary: var(--purpletext); /* currently purple */
+    --header-secondary: var(--bodytext);
+    --text-normal: var(--bodytext);
+    --text-muted: var(--secondarytext);
+    --text-link: var(--textinputs);
+    --channels-default: var(--secondarytext);
+    --interactive-normal: var(--bodytext);
+    --interactive-hover: var(--purpletext);
+    --interactive-active: var(--bodytext);
+    --interactive-muted: var(--bodytext);
+    --background-primary: var(--pagecolor);
+    --background-secondary: var(--pagecolor);
+    --background-tertiary: var(--pagecolor);
+    --background-accent: var(--pagecolor);
+    --background-floating: var(--textinputs);
+    --background-modifier-hover: var(--textinputs);
+    --background-modifier-active: var(--textinputs);
+    --background-modifier-selected: var(--textinputs);
+    --background-modifier-accent: var(--pagecolor);
+    --elevation-low: 0 4px 0 rgba(0,0,0,0.4);
+    --elevation-high: 0 8px 16px rgba(0,0,0,0.4);
+    --logo-primary: var(--purpletext);
+    --guild-header-text-shadow: none;
+    --channeltextarea-background: var(--textinputs);
+    --activity-card-background: var(--textinputs);
+    --deprecated-panel-background: var(--textinputs);
+    --deprecated-card-bg: var(--textinputs);
+    --deprecated-card-editable-bg: var(--gradientright);
+    --deprecated-store-bg: var(--textinputs);
+    --deprecated-quickswitcher-input-background: var(--gradient);
+    --deprecated-quickswitcher-input-placeholder: var(--bodytext);
+    --deprecated-text-input-bg: var(--textinputs);
+    --deprecated-text-input-border: var(--textinputs);
+    --deprecated-text-input-border-hover: var(--pagecolor);
+    --deprecated-text-input-border-disabled: var(--textinputs);
+    --deprecated-text-input-prefix: var(--whitetext);
+}
+
+body {
+  font-family: var(--screenfont);
+  font-weight: 300 !important;
+  zoom: 0.9;
+}
+
+.header-2o-2hj {
+  color: var(--whitetext)
+}
+
+.circleIconButton-jET_ig,
+.message-3SOT5P {
+  color: var(--secondarytext);
+}
+
+.item-2hkk8m {
+  background-color: var(--bodytext);
+}
+
+.base-1x0h_U {
+  color: var(--secondarytext);
+}
+
+.close-relY5R {
+  color: var(--secondarytext);
+}
+
+.lookFilled-1Gx00P.colorBrand-3pXr91 {
+  background-color: var(--secondarytext);
+}
+
+/* Scrollbar grab bar */
+.theme-dark .scrollerThemed-2oenus.themedWithTrack-q8E3vB .scroller-2FKFPG::-webkit-scrollbar-thumb {
+  background: linear-gradient(130deg, var(--gradientright), var(--gradientleft)) !important;
+  border: 1px solid var(--textinputs);
+}
+
+/* Scrollbar container */
+.theme-dark .scrollerThemed-2oenus.themedWithTrack-q8E3vB .scroller-2FKFPG::-webkit-scrollbar-track-piece {
+  background-color: var(--textinputs);
+  border: none;
+}
+
+.theme-dark .isMentioned-N-h9aa {
+  background-color: var(--textinputs);
+}
+
+.theme-dark .isMentioned-N-h9aa .mention {
+  background: linear-gradient(130deg, var(--gradientright), var(--gradientleft)) !important;
+  color: var(--bodytext);
+}
+
+.offline-3nJYBR {
+  opacity: 1.0;
+}

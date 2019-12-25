@@ -35,6 +35,10 @@ Please let me know any problems. A github page will be up soon
 Because this Extension is designed as a framework, you are free to edit it, repackage it, and release it under the The MIT License. The License file should always be included so
 
 ## Changelog
+### Version 0.2 - 24 Dec 2019
+- Added logic to apply the correct theme for the current website
+- Added https://discordapp.com theme
+
 ### Version 0.1.1 - 24 Dec 2019
 - Working as intended for https://www.messenger.com and https://www.facebook.com/messages/
 
