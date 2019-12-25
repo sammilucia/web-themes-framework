@@ -23,7 +23,7 @@
     --header-secondary: var(--bodytext);
     --text-normal: var(--bodytext);
     --text-muted: var(--secondarytext);
-    --text-link: var(--textinputs);
+    --text-link: var(--purpletext);
     --channels-default: var(--secondarytext);
     --interactive-normal: var(--bodytext);
     --interactive-hover: var(--purpletext);

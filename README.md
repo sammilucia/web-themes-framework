@@ -21,6 +21,8 @@ A few reasons. One there are Extensions such as Stylish which let you theme spec
 
 ## Web apps supported so far
 1. Facebook Messenger (both standalone and through Facebook)
+2. Discord
+3. Whatsapp
 
 ## Contributing
 I have okay coding skills, but I could definitely use help. Skills required:
@@ -35,7 +37,11 @@ Please let me know any problems. A github page will be up soon
 Because this Extension is designed as a framework, you are free to edit it, repackage it, and release it under the The MIT License. The License file should always be included so
 
 ## Changelog
-### Version 0.2 - 24 Dec 2019
+### Version 0.2.1 - 24 Dec 2019
+- Added https://web.whatsapp.com theme
+- Fixed minor bug in Discord theme
+
+### Version 0.2.0 - 24 Dec 2019
 - Added logic to apply the correct theme for the current website
 - Added https://discordapp.com theme
 
