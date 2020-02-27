@@ -1,15 +1,16 @@
 {
   "manifest_version": 2,
   "name": "Web Themes Framework",
-  "version": "0.2.1",
+  "version": "0.2.4",
   "author": "Samantha Glocker",
-  "permissions": [ "activeTab" ],
+  "permissions": [],
   "content_scripts": [{
       "matches": [
         "*://www.messenger.com/*",
         "*://www.facebook.com/messages/*",
         "*://discordapp.com/*",
-        "*://web.whatsapp.com/*"
+        "*://web.whatsapp.com/*",
+        "*://www.youtube.com/*"
       ],
       "js": ["js/injector.js"]
     }],
@@ -17,6 +18,7 @@
     "css/config.css",
     "css/messenger.css",
     "css/discord.css",
-    "css/whatsapp.css"
+    "css/whatsapp.css",
+    "css/youtube.css"
   ]
 }

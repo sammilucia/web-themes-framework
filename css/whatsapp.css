@@ -30,11 +30,14 @@
   --changes:        "See the changelog at: https://github.com/sammilucia/web-themes-framework";
 }
 
+/*** Needs complete redoing - it's a mess ***/
+
   /* Body reset. */
   body {
     font-family: var(--screenfont);
     background: none;
-    background-color: var(--textinputs); }
+    background-color: var(--textinputs);
+  }
 
   /* Scrollbar track. */
   *::-webkit-scrollbar-track {
@@ -167,6 +170,9 @@
         color: var(--white); }
 
     /* Global -> Search. */
+    html[dir] ._2vikl {
+      background-color: var(--pagecolor);
+    }
     ._2HS9r {
       border-bottom: 0px solid var(--textinputs);
       background-color: var(--pagecolor) !important;
@@ -178,7 +184,7 @@
       /* Input element. */
       .ZP8RM ._183ES,
       .ZP8RM label input {
-        color: var(--whitetext);
+        color: var(--secondarytext);
         background-color: transparent; }
       .ZP8RM::after,
       .ZP8RM > div::after {
@@ -283,6 +289,9 @@
     ._1DKwn {
       box-shadow: 0 2px 4px 0 var(--shadow) !important;
       background-color: var(--textinputs) !important; }
+    /* Text entry */
+    ._3FeAD ._3u328 {
+      color: var(--primarytext) !important; }
 
   /* Option/select elements. */
   select {
@@ -419,7 +428,21 @@
       transition: color 0.15s ease;
       color: var(--white) !important; }
 
-  /* Right drawer. */
+  /* Right drawer */
+  /* Default page */
+  html[dir] ._1qNwV {
+    background-color: var(--textinputs);
+  }
+  html[dir] ._1qNwV:after {
+    border-top: none;
+  }
+  html[dir] .HGVhc {
+    display: none;
+  }
+  /* Text */
+  .tzihe, .Jeekp {
+    color: var(--secondarytext);
+  }
   /* .app ._3HZor ._2fq0t {
     background-color: var(--pagecolor); } */
     /* Border-color. */

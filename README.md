@@ -37,6 +37,15 @@ Please let me know any problems. A github page will be up soon
 Because this Extension is designed as a framework, you are free to edit it, repackage it, and release it under the The MIT License. The License file should always be included so
 
 ## Changelog
+### Version 0.2.4 - 27 Feb 2020
+- Fixed wrong textinput color on WhatsApp
+
+### Version 0.2.3 - 21 Jan 2020
+- Accommodated some changes in WhatsApp
+
+### Version 0.2.2 - 25 Dec 2019
+- Added https://www.youtube.com theme
+
 ### Version 0.2.1 - 24 Dec 2019
 - Added https://web.whatsapp.com theme
 - Fixed minor bug in Discord theme
