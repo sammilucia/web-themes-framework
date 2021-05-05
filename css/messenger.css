@@ -27,8 +27,8 @@ body,
   background: linear-gradient(130deg, var(--gradientleft) 20%, var(--gradientright) 100%) !important;
 }
 
-._z4_ {
-  font-family: var(--screenfont);
+#facebook ._-kb.segoe {
+  font-family: var(--screenfont) !important;
 }
 
 ._7mki polygon {

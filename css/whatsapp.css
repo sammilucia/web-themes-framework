@@ -39,6 +39,45 @@
     background-color: var(--textinputs);
   }
 
+  /* ################ NEW ################## */
+
+  /* Message entry hint text */
+  ._2FVVk ._2FbwG {
+    color: var(--secondarytext);
+  }
+
+  /* Message entry text color */
+  ._2FVVk._2UL8j ._3FRCZ {
+    color: var(--mblue);
+  }
+
+  /* Message text color */
+  [class*="message-"] div > div:last-child span {
+    color: var(--mblue) !important;
+  }
+
+  /* Side pane background */
+  #pane-side {
+    background-color: var(--pagecolor) !important;
+  }
+
+    /* Side pane contacts */
+    html[dir] .eJ0yJ {
+      background-color: var(--pagecolor) !important;
+    }
+
+    /* Contact separators */
+    html[dir] ._2kHpK {
+      border-top: none;
+    }
+
+    /* Contact names */
+    ._3CneP {
+      color: var(--purpletext);
+    }
+
+  /* ################ NEW ################## */
+
   /* Scrollbar track. */
   *::-webkit-scrollbar-track {
     background-color: var(--shadow); }
@@ -170,8 +209,11 @@
         color: var(--white); }
 
     /* Global -> Search. */
-    html[dir] ._2vikl {
+    html[dir] .rRAIq {
       background-color: var(--pagecolor);
+    }
+    html[dir] ._2MSJr, html[dir] .gQzdc._3sdhb {
+      background-color: var(--textinputs);
     }
     ._2HS9r {
       border-bottom: 0px solid var(--textinputs);
@@ -211,10 +253,13 @@
     #side .matched-text {
       color: var(--accent) !important; }
 
-    /* Contacts wrapper. */
-    #pane-side, ._11GZy ._2UaNq {
-      background-color: transparent !important; }
       /* Contacts. */
+      ._1AwDx {
+        color: var(--secondarytext);
+      }
+      ._1VfKB {
+        color: var(--mblue);
+      }
       ._2UaNq, ._11GZy ._26JG5 {
         transition: 200ms ease-in-out;
         background-color: transparent !important; }
@@ -222,10 +267,10 @@
         ._2UaNq._3mMX1, ._2UaNq:hover {
           background-color: var(--textinputs) !important; }
         /* Text color. */
-        ._2UaNq *:not(#z) {
+        ._25Ooe *:not(#z) {
           color: var(--purpletext) !important; }
         /* Borders. */
-        ._2UaNq::after, ._2WP9Q {
+        ._25Ooe::after, ._2WP9Q {
           border-color: transparent !important; }
         /* Avatar wrapper background. */
         ._3RWII {
@@ -430,14 +475,20 @@
 
   /* Right drawer */
   /* Default page */
-  html[dir] ._1qNwV {
+  html[dir] ._2zynu {
     background-color: var(--textinputs);
   }
-  html[dir] ._1qNwV:after {
+  html[dir] ._2zynu:after {
     border-top: none;
   }
   html[dir] .HGVhc {
     display: none;
+  }
+  .dPZky, ._2g-bt, ._1XccF {
+    color: var(--secondarytext);
+  }
+  .P8cO8 {
+    color: var(--purpletext);
   }
   /* Text */
   .tzihe, .Jeekp {
@@ -521,10 +572,6 @@
     .YAPQk ._1f1zm > ._3j7s9,
     .YAPQk ._3j7s9:hover {
       background-color: var(--textinputs) !important; }
-
-  /* Search messages. */
-  #pane-side ._2EXPL {
-    background-color: transparent !important; }
 
   /* Starred messages. */
   ._1WMT2 .tail:not(.PJFFv) {
@@ -676,10 +723,6 @@
     /* Mentions. */
     .matched-mention, .matched-mention .at-symbol {
       color: var(--accent) !important; }
-
-      /* Message meta text color. */
-      [class*="message-"] div > div:last-child span {
-        color: var(--bodytext); }
 
     /* Image/gif/video meta wrapper. */
     .KYpDv ._1DZAH {

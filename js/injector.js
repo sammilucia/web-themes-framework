@@ -7,7 +7,7 @@ let thisSite = window.location.host;
 if ( thisSite === "www.messenger.com" || thisSite === "www.facebook.com" ) {
   doMessenger();
 }
-else if ( thisSite === "discordapp.com" ) {
+else if ( thisSite === "discord.com" ) {
   doDiscord();
 }
 else if ( thisSite === "web.whatsapp.com" ) {
@@ -15,6 +15,9 @@ else if ( thisSite === "web.whatsapp.com" ) {
 }
 else if ( thisSite === "www.youtube.com" ) {
   doYouTube();
+}
+else if ( thisSite === "app.slack.com" ) {
+  doSlack();
 }
 
 // www.messenger.com and https://www.facebook.com/messages/
@@ -34,7 +37,7 @@ function doMessenger() {
   document.head.appendChild(link);
 }
 
-// discordapp.com
+// discord.com
 function doDiscord() {
 
   // Debug
@@ -68,13 +71,29 @@ function doWhatsapp() {
   document.head.appendChild(link);
 }
 
-// web.whatsapp.com
+// youtube.com
 function doYouTube() {
 
   // Debug
   console.log('******** Web Theme: ' + thisSite + ' ********');
 
   let a     = chrome.extension.getURL("css/youtube.css"),
+      link  = document.createElement('link');
+
+  link.type = 'text/css';
+  link.rel  = 'stylesheet';
+  link.id   = "webThemesFramework";
+  link.href = a;
+
+  document.head.appendChild(link);
+}
+
+function doSlack() {
+
+  // Debug
+  console.log('******** Web Theme: ' + thisSite + ' ********');
+
+  let a     = chrome.extension.getURL("css/slack.css"),
       link  = document.createElement('link');
 
   link.type = 'text/css';
