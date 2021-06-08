@@ -85,11 +85,32 @@ pre {
 	background-color: var(--greenish) !important;
 }
 
-.p-texty_sticky_formatting_bar {
-	background: var(--textinputs) !important;
-	border-bottom: none;
+/* message entry */
+.c-wysiwyg_container {
+	border-width: 0px;
 }
 
+.c-wysiwyg_container__footer {
+	border-top: none;
+	background: var(--textinputs) !important;
+}
+
+.c-wysiwyg_container__button.c-icon_button.c-wysiwyg_container__button--shortcuts::after {
+	border-right: none;
+}
+
+[lang] .c-texty_input_unstyled {
+	color: var(--whitetext);
+	font-family: var(--screenfont);
+}
+
+.c-button--primary,
+.c-wysiwyg_container__button.c-wysiwyg_container__button--send {
+	background: var(--greenish);
+	color: var(--textinputs);
+}
+
+/* */
 .c-message_list__day_divider__label__pill {
 	background-color: var(--purpletext);
 	color:var(--pagecolor) !important;
@@ -99,11 +120,6 @@ pre {
 .p-workspace__input.p-message_input .p-message_input_field.focus {
 	background: var(--textinputs);
 	border-bottom: none;
-}
-
-[lang] .c-texty_input {
-	color: var(--whitetext);
-	font-family: var(--screenfont);
 }
 
 .p-composer__button--sticky.c-icon_button {
@@ -133,12 +149,6 @@ pre {
 .p-flexpane__title_container,
 .c-button-unstyled {
 	color: var(--replybkg);
-}
-
-.c-button--primary,
-.c-icon_button.c-texty_input__button--send {
-	background: var(--greenish);
-	color: var(--textinputs);
 }
 
 .c-button--primary:hover {

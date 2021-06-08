@@ -37,6 +37,12 @@ Please let me know any problems. A github page will be up soon
 Because this Extension is designed as a framework, you are free to edit it, repackage it, and release it under the The MIT License. The License file should always be included so
 
 ## Changelog
+## Version 0.3.2 - 8 Jun 2020
+- Updated Slack to support new wysiwig class
+
+## Version 0.3.1 - 16 May 2020
+- Added Slack support
+
 ### Version 0.2.4 - 27 Feb 2020
 - Fixed wrong textinput color on WhatsApp
 

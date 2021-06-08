@@ -19,6 +19,9 @@ else if ( thisSite === "www.youtube.com" ) {
 else if ( thisSite === "app.slack.com" ) {
   doSlack();
 }
+else if ( thisSite === "www.linkedin.com" ) {
+  doLinkedIn();
+}
 
 // www.messenger.com and https://www.facebook.com/messages/
 function doMessenger() {
@@ -94,6 +97,22 @@ function doSlack() {
   console.log('******** Web Theme: ' + thisSite + ' ********');
 
   let a     = chrome.extension.getURL("css/slack.css"),
+      link  = document.createElement('link');
+
+  link.type = 'text/css';
+  link.rel  = 'stylesheet';
+  link.id   = "webThemesFramework";
+  link.href = a;
+
+  document.head.appendChild(link);
+}
+
+function doLinkedIn() {
+
+  // Debug
+  console.log('******** Web Theme: ' + thisSite + ' ********');
+
+  let a     = chrome.extension.getURL("css/linkedin.css"),
       link  = document.createElement('link');
 
   link.type = 'text/css';

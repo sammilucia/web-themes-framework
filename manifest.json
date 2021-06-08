@@ -1,26 +1,37 @@
 {
-  "manifest_version": 2,
-  "name": "Web Themes Framework",
-  "version": "0.3.0",
-  "author": "Samantha Glocker",
-  "permissions": [],
-  "content_scripts": [{
-      "matches": [
-        "*://www.messenger.com/*",
-        "*://www.facebook.com/messages/*",
-        "*://discord.com/*",
-        "*://web.whatsapp.com/*",
-        "*://www.youtube.com/*",
-        "*://app.slack.com/*"
-      ],
-      "js": ["js/injector.js"]
+    "manifest_version": 2,
+    
+    "name": "Web Themes Framework",
+
+    "description": "A customisable theming engine for popular websites.",
+    
+    "version": "0.3.2",
+    
+    "author": "Samantha Glocker",
+        
+    "content_scripts":
+    [{
+        "matches":
+        [
+            "*://*.messenger.com/*",
+            "*://*.facebook.com/messages/*",
+            "*://discord.com/*",
+            "*://*.whatsapp.com/*",
+            "*://*.youtube.com/*",
+            "*://*.slack.com/*",
+            "*://*.linkedin.com/*"
+        ],
+        "js": ["js/injector.js"]
     }],
-  "web_accessible_resources": [
-    "css/config.css",
-    "css/messenger.css",
-    "css/discord.css",
-    "css/whatsapp.css",
-    "css/youtube.css",
-    "css/slack.css"
-  ]
+    
+    "web_accessible_resources":
+    [
+        "css/config.css",
+        "css/messenger.css",
+        "css/discord.css",
+        "css/whatsapp.css",
+        "css/youtube.css",
+        "css/slack.css",
+        "css/linkedin.css"
+    ]
 }
