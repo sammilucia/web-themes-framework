@@ -39,6 +39,7 @@ Because this Extension is designed as a framework, you are free to edit it, repa
 ## Changelog
 ## Version 0.3.2 - 8 Jun 2020
 - Updated Slack to support new wysiwig class
+- Added Firefox support
 
 ## Version 0.3.1 - 16 May 2020
 - Added Slack support
