@@ -1,5 +1,5 @@
 # Web Themes Framework
-Project page: https://github.com/sammilucia/web-themes-framework
+_*Quickly create themes for popular web apps.*_
 
 ## About
 The goal of this project is that theme creators can create _their own_ Chrome Extension that themes the most popular websites, and package these as a Chrome extension, quickly, reliably, and easily, and without any programming experience or knowledge.
