@@ -1,5 +1,5 @@
 # Web Themes Framework
-Project page: https://github.com/sammilucia/web-themes-framework
+_**Quickly create themes for popular web apps.**_
 
 ## About
 The goal of this project is that theme creators can create _their own_ Chrome Extension that themes the most popular websites, and package these as a Chrome extension, quickly, reliably, and easily, and without any programming experience or knowledge.
@@ -35,6 +35,9 @@ Please let me know any problems. A github page will be up soon
 
 ## License
 Because this Extension is designed as a framework, you are free to edit it, repackage it, and release it under the The MIT License. The License file should always be included so
+
+## To do
+1. Fix Messenger support
 
 ## Changelog
 ## Version 0.3.2 - 8 Jun 2020
