@@ -37,7 +37,8 @@ Please let me know any problems. A github page will be up soon
 Because this Extension is designed as a framework, you are free to edit it, repackage it, and release it under the The MIT License. The License file should always be included so
 
 ## To do
-1. Fix Messenger support
+1. Create a single CSS file for storing colours and fonts for all web apps
+2. Fix Messenger support
 
 ## Changelog
 ## Version 0.3.2 - 8 Jun 2020
