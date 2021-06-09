@@ -12,9 +12,6 @@
   --reddish:        #ff84da;
   --yellowish:      #bff143;
 
-  --screenfont:     Helvetica, Arial, sans-serif;
+  --screenfont:     "Segoe UI", Arial, sans-serif;
 }
 
-body {
-	font-family: var(--screenfont);
-}

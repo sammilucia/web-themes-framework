@@ -41,11 +41,14 @@ Because this Extension is designed as a framework, you are free to edit it, repa
 2. Fix Messenger support
 
 ## Changelog
-## Version 0.3.2 - 8 Jun 2020
+### Version 0.3.3 - 9 Jun 2021
+- Fixed WhatsApp support
+
+### Version 0.3.2 - 8 Jun 2021
 - Updated Slack to support new wysiwig class
 - Added Firefox support
 
-## Version 0.3.1 - 16 May 2020
+### Version 0.3.1 - 16 May 2021
 - Added Slack support
 
 ### Version 0.2.4 - 27 Feb 2020
