@@ -9,6 +9,8 @@ _**Quickly create themes for popular web apps.**_
 
 _Note: The license allows you to repackage and upload as a Chrome Extension/Firefox Add-on for your own theme 😊_
 
+_Note2: The default theme is based on Paranoid Android by [niivu](https://www.deviantart.com/niivu/art/Paranoid-Android-Windows-10-Themes-821696974)_
+
 ## About
 The goal of this project is that theme creators can create _their own_ Chrome Extension that themes the most popular websites, and package these as a Chrome extension, quickly, reliably, and easily, and without any programming experience or knowledge.
 
@@ -36,9 +38,7 @@ I could definitely use help. Skills required:
 ## Bugs
 Please create a GitHub issue for any problems
 
-## License
-You are free to edit it, repackage, and release Web Themes Framework themes under the The MIT License. The License file must always be included.
-
+## Attribution
 If you can mention "Web Themes Framework" when you release this will help people find this project and make more themes 😊 (but it's not necessary to mention).
 
 ## To do

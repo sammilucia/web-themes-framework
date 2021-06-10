@@ -1,19 +1,21 @@
 :root {
     /* define your theme's colors here: */
-    --textinputs:     #181b28;
-    --pagecolor:      #141721;
+    --textinputs:     #181b28;  /* Paranoid Android: BaseColor */
+    --pagecolor:      #141721;  /* Paranoid Android: Darker */
     --secondarytext:  #4A5664;
-    --whitetext:      #DEDEDE;
+    --whitetext:      #DEDEDE;  /* Paranoid Android: White */
     --bodytext:       #79e6f3;  /* Paranoid Android: CyanText */
     --purpletext:     #8c00fd;  /* Paranoid Android: PurpleGradient1 */
     --replybkg:       #c574dd;  /* Paranoid Android: VioletText */
     --yellowish:      #d7f143;
     --activecolor:    #5BE6B6;
-    --reddish:        #FF84DA;
-    --greenish:       #BFF143;
+    --red:            #ff007a;  /* Paranoid Android: NebulaClose */
+    --reddish:        #ff85c0;  /* Lightened version of NebulaClose */
+    --green:          #84ff39;  /* Paranoid Android: NebulaMax */
+    --greenish:       #bff143;
 
-    --gradient1:      rgb(90, 51, 230, 0.9);
-    --gradient2:      rgb(174, 84, 240, 0.9);
+    --gradient1:      rgb(90, 51, 230, 0.9);  /* Paranoid Android: PurpleGradient1 */
+    --gradient2:      rgb(174, 84, 240, 0.9); /* Paranoid Android: VioletGradient2 */
   
     /* define your theme's fonts here: */
     --screenfont:     'Source Code Pro', 'Source Code Variable', sans-serif;
