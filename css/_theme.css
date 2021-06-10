@@ -2,6 +2,7 @@
 	/* define your theme's colors here: */
 	--textinputs:		#181b28;	/* Paranoid Android: BaseColor */
 	--pagecolor:		#141721;	/* Paranoid Android: Darker */
+	--scrollbars:		#353849;
 	--secondarytext:	#4A5664;
 	--midtext:			#7a8a9b;
 	--whitetext:		#DEDEDE;	/* Paranoid Android: White */
@@ -15,8 +16,10 @@
 	--green:			#84ff39;	/* Paranoid Android: NebulaMax */
 	--greenish:			#bff143;
 
-	--gradient1:		rgba(90, 51, 230, 0.8);		/* Paranoid Android: PurpleGradient1 */
-	--gradient2:		rgba(174, 84, 240, 0.8);	/* Paranoid Android: VioletGradient2 */
+	--gradient1:		90, 51, 230;	/* Paranoid Android: PurpleGradient1 */
+	--gradient2:		174, 84, 240;	/* Paranoid Android: VioletGradient2 */
+	--gradient3:		91, 230, 182;
+	--gradient4:		121, 230, 243;
 
 	/* define your theme's fonts here: */
 	--screenfont:		 'Source Code Pro', 'Source Code Variable', sans-serif;

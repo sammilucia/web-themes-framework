@@ -5,6 +5,7 @@
 	--intro-background: var(--pagecolor);
 	--conversation-panel-background: var(--pagecolor);
 	--panel-header-background: var(--pagecolor);
+	--panel-background-colored: var(--pagecolor);
 
 	/* general text */
 	--primary-strong: var(--bodytext);
@@ -18,6 +19,7 @@
 	--avatar-background: var(--pagecolor);
 	--avatar-placeholder-primary: var(--secondarytext);
 	--avatar-placeholder-background: var(--pagecolor);
+	--background-default-hover: var(--textinputs);
 
 	/* icons */
 	--icon: var(--secondarytext);
@@ -35,13 +37,16 @@
 	/* search colors */
 	--search-container-background: var(--pagecolor);
 	--search-input-background: var(--textinputs);
+	--primary: var(--whitetext);
+	--input-placeholder: var(--secondarytext);
 
 	/* messages */
-	--message-primary: var(--pagecolor);
-	--incoming-background: var(--bodytext);
-	--outgoing-background: var(--replybkg);
+	--message-primary: var(--whitetext);
+	--incoming-background: var(--pagecolor);
+	--outgoing-background: var(--pagecolor);
 	--system-message-background: var(--pagecolor);
 	--bubble-meta: var(--secondarytext);
+	--notification-e2e-background: var(--pagecolor);
 }
 
 body {
@@ -50,8 +55,13 @@ body {
 }
 
 a {
-	color: var(--pagecolor);
+	color: var(--greenish);
 	text-decoration: underline;
+}
+
+/* override scrollbar color */
+.dark * {
+	scrollbar-color: var(--scrollbars) transparent;
 }
 
 /* remove messages panel background image */
@@ -74,14 +84,23 @@ html[dir] ._20zqk {
 	box-shadow: none;
 }
 
-/* your messages background gradient */
+/* override outgoing messages border */
 html[dir] .message-out ._3XpKm {
-	background: linear-gradient(0deg, var(--gradient1) 0%, var(--replybkg) 100%);
+	border: 1px solid rgba(var(--gradient2),0.9);
 }
 
-/* incoming messages background gradient */
+/* override incoming messages border */
 html[dir] .message-in ._3XpKm {
-	background: linear-gradient(0deg, var(--activecolor) 0%, var(--bodytext) 100%);
+	border: 1px solid rgba(var(--gradient4),0.9);
+}
+
+/* override incoming/outgoing border radiuses */
+html[dir="ltr"] .message-in ._1-U5A ._3XpKm {
+	border-top-left-radius: 7.5px;
+}
+
+html[dir="ltr"] .message-out ._1-U5A ._3XpKm {
+	border-top-right-radius: 7.5px;
 }
 
 /* fix ugly gaps between elements */
@@ -96,7 +115,7 @@ html[dir] .message-out ._3Ppzm {
 }
 
 html[dir] ._3Ppzm {
-	background-color: rgba(0, 0, 0, 0.2) !important;
+	background-color: var(--textinputs) !important;
 }
 
 .dark .bg-color-1,
@@ -106,14 +125,20 @@ html[dir] ._3Ppzm {
 
 .dark .color-1,
 .dark .color-2 {
-	color: var(--textinputs) !important;
+	color: var(--bodytext) !important;
 }
 
 ._31DtU {
-	color: var(--textinputs);
+	color: var(--midtext);
 }
 
-/* fix attachment text color */
+/* override attachment text color */
 .JpOli {
-	color: var(--textinputs);
+	color: var(--midtext);
+}
+
+/* remove contact and search borders */
+html[dir] .TbtXF,
+html[dir] .dark ._3LX7r {
+	border: none;
 }

@@ -15,7 +15,10 @@
     --secondary-text: var(--bodytext);
 
     /* buttons */
-    --secondary-button-background: var(--gradient2);
+    --secondary-button-background: rgb(var(--gradient2));
+
+    /* messages */
+    --divider: var(--secondarytext);
 }
 
 /* override fonts */
@@ -26,12 +29,12 @@ body,
 
 /* override incoming messages */
 .g6srhlxm {
-    background: linear-gradient(0deg, var(--gradient2) 0%, var(--gradient1) 100%);
+    background: linear-gradient(0deg, rgba(var(--gradient2), 0.8) 0%, rgba(var(--gradient1), 0.8) 100%);
 }
 
 /* override contacts color */
 .oo9gr5id {
-    color: var(--activecolor) !important;
+    color: var(--bodytext) !important;
 }
 
 /* override contacts active time color */
@@ -41,4 +44,9 @@ body,
 
 .j9ispegn {
 	fill: red;
+}
+
+/* override quoted message backgrounds */
+.khkgorpb {
+    background: linear-gradient(0deg, rgba(var(--gradient1), 0.2) 0%, rgba(var(--gradient1), 0.3) 100%);
 }
