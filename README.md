@@ -24,7 +24,7 @@ Thirdly – and perhaps the biggest reason – tools like Stylish are a LOT of w
 Lastly, WTF has minimal access to website, is completely open source, and is free to customize and distribute with your own themes.
 
 ## Web apps supported so far
-1. Facebook Messenger (both standalone and through Facebook)—currently broken needs fixing
+1. Facebook Messenger (both standalone and through Facebook)
 2. Discord
 3. Whatsapp
 4. Slack (Enter `#141721,#2C3849,#202436,#9378FF,#202436,#9378FF,#71F1B6,#7553FC,#181B28,#606873` as a Slack theme to start)
@@ -47,6 +47,9 @@ If you can mention "Web Themes Framework" when you release this will help people
 - Twitter? Twitch? ...?
 
 ## Changelog
+### Version 0.4.2 - 9 Jun 2021
+- Fixed Messenger theme
+
 ### Version 0.4.1 - 9 Jun 2021
 - Added global _theme.css. You can now customize most colors/fonts of all websites from this single file
 - Added icon

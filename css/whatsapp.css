@@ -1,119 +1,119 @@
 .dark {
-  /* panels */
-  --startup-background: var(--pagecolor);
-  --app-background: var(--pagecolor);
-  --intro-background: var(--pagecolor);
-  --conversation-panel-background: var(--pagecolor);
-  --panel-header-background: var(--pagecolor);
+	/* panels */
+	--startup-background: var(--pagecolor);
+	--app-background: var(--pagecolor);
+	--intro-background: var(--pagecolor);
+	--conversation-panel-background: var(--pagecolor);
+	--panel-header-background: var(--pagecolor);
 
-  /* general text */
-  --primary-strong: var(--bodytext);
-  --secondary: var(--secondarytext);
-  --system-message-text: var(--secondarytext);
-  --notification-e2e-text: var(--bodytext);
+	/* general text */
+	--primary-strong: var(--bodytext);
+	--secondary: var(--secondarytext);
+	--system-message-text: var(--secondarytext);
+	--notification-e2e-text: var(--bodytext);
 
-  /* contacts */
-  --background-default-active: var(--textinputs);
-  --background-default: var(--pagecolor);
-  --avatar-background: var(--pagecolor);
-  --avatar-placeholder-primary: var(--secondarytext);
-  --avatar-placeholder-background: var(--pagecolor);
+	/* contacts */
+	--background-default-active: var(--textinputs);
+	--background-default: var(--pagecolor);
+	--avatar-background: var(--pagecolor);
+	--avatar-placeholder-primary: var(--secondarytext);
+	--avatar-placeholder-background: var(--pagecolor);
 
-  /* icons */
-  --icon: var(--secondarytext);
-  --icon-ack: var(--activecolor);
-  --chatlist-icon: var(--secondarytext);
-  --danger: var(--reddish);
-  --panel-header-icon: var(--secondary);
-  --notification-e2e-icon: var(--yellowish);
+	/* icons */
+	--icon: var(--secondarytext);
+	--icon-ack: var(--activecolor);
+	--chatlist-icon: var(--secondarytext);
+	--danger: var(--reddish);
+	--panel-header-icon: var(--secondary);
+	--notification-e2e-icon: var(--yellowish);
 
-  /* text input */
-  --rich-text-panel-background: var(--pagecolor);
-  --compose-input-background: var(--textinputs);
-  --compose-input-border: var(--textinputs);
+	/* text input */
+	--rich-text-panel-background: var(--pagecolor);
+	--compose-input-background: var(--textinputs);
+	--compose-input-border: var(--textinputs);
 
-  /* search colors */
-  --search-container-background: var(--pagecolor);
-  --search-input-background: var(--textinputs);
+	/* search colors */
+	--search-container-background: var(--pagecolor);
+	--search-input-background: var(--textinputs);
 
-  /* messages */
-  --message-primary: var(--pagecolor);
-  --incoming-background: var(--bodytext);
-  --outgoing-background: var(--replybkg);
-  --system-message-background: var(--pagecolor);
-  --bubble-meta: var(--secondarytext);
+	/* messages */
+	--message-primary: var(--pagecolor);
+	--incoming-background: var(--bodytext);
+	--outgoing-background: var(--replybkg);
+	--system-message-background: var(--pagecolor);
+	--bubble-meta: var(--secondarytext);
 }
 
 body {
-  font-family: var(--screenfont);
-  background-color: var(--pagecolor);
+	font-family: var(--screenfont);
+	background-color: var(--pagecolor);
 }
 
 a {
-  color: var(--pagecolor);
-  text-decoration: underline;
+	color: var(--pagecolor);
+	text-decoration: underline;
 }
 
 /* remove messages panel background image */
 [data-asset-chat-background-dark] {
-  background: none;
+	background: none;
 }
 
 /* remove line under intro screen */
 ._2zkCi::after {
-  content: none;
+	content: none;
 }
 
 /* remove app shadow */
 html[dir] .app-wrapper-web ._3QfZd {
-  box-shadow: none;
+	box-shadow: none;
 }
 
 /* remove message box shadow */
 html[dir] ._20zqk {
-  box-shadow: none;
+	box-shadow: none;
 }
 
 /* your messages background gradient */
 html[dir] .message-out ._3XpKm {
-  background: linear-gradient(0deg, var(--gradient1) 0%, var(--replybkg) 100%);
+	background: linear-gradient(0deg, var(--gradient1) 0%, var(--replybkg) 100%);
 }
 
 /* incoming messages background gradient */
 html[dir] .message-in ._3XpKm {
-  background: linear-gradient(0deg, var(--activecolor) 0%, var(--bodytext) 100%);
+	background: linear-gradient(0deg, var(--activecolor) 0%, var(--bodytext) 100%);
 }
 
 /* fix ugly gaps between elements */
 * {
-  scrollbar-width: auto;
+	scrollbar-width: auto;
 }
 
 /* message replies */
 html[dir] .message-in ._3Ppzm,
 html[dir] .message-out ._3Ppzm {
-  background: none;
+	background: none;
 }
 
 html[dir] ._3Ppzm {
-  background-color: rgba(0, 0, 0, 0.2) !important;
+	background-color: rgba(0, 0, 0, 0.2) !important;
 }
 
 .dark .bg-color-1,
 .dark .bg-color-2 {
-  background: var(--pagecolor) !important;
+	background: var(--pagecolor) !important;
 }
 
 .dark .color-1,
 .dark .color-2 {
-  color: var(--textinputs) !important;
+	color: var(--textinputs) !important;
 }
 
 ._31DtU {
-  color: var(--textinputs);
+	color: var(--textinputs);
 }
 
 /* fix attachment text color */
 .JpOli {
-  color: var(--textinputs);
+	color: var(--textinputs);
 }
