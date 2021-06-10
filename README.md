@@ -27,9 +27,9 @@ Lastly, WTF has minimal access to website, is completely open source, and is fre
 1. Facebook Messenger (both standalone and through Facebook)
 2. Discord
 3. Whatsapp
-4. Slack (Enter `#141721,#2C3849,#202436,#9378FF,#202436,#9378FF,#71F1B6,#7553FC,#181B28,#606873` as a Slack theme to start)
-5. LinkedIn (just starting work)
-6. YouTube (just starting work)
+4. YouTube
+5. Slack (Enter `#141721,#2C3849,#202436,#9378FF,#202436,#9378FF,#71F1B6,#7553FC,#181B28,#606873` as a Slack theme to start)
+6. LinkedIn (just starting work)
 
 ## Contributing
 I could definitely use help. Skills required:
@@ -42,9 +42,10 @@ Please create a GitHub issue for any problems
 If you can mention "Web Themes Framework" when you release this will help people find this project and make more themes 😊 (but it's not necessary to mention).
 
 ## To do
-- Fix Messenger support
-- Implement YouTube, LinkedIn support
-- Twitter? Twitch? ...?
+- Finalise Slack (problems with a few popups)
+- Finalise Messenger (problems with a few popups)
+- Try to make WhatsApp not ugly
+- Implement LinkedIn, Twitter, Teams, ...
 
 ## Changelog
 ### Version 0.4.2 - 9 Jun 2021
