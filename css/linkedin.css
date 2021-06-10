@@ -1,17 +1,5 @@
 /* Define theme variables */
 :root {
-  --textinputs:     #181B28; /* Paranoid Android */
-  --pagecolor:      #141721; /* Paranoid Android */
-  --secondarytext:  #4A5664;
-  --whitetext:      #DEDEDE; /* Paranoid Android */
-  --bodytext:       #7ddee9;
-  --purpletext:     #8053fc;
-  --replybkg:       #A44CE9;
-  --greenish:       #d7f143;
-  --activecolor:	#71f1b6;
-  --reddish:        #ff84da;
-  --yellowish:      #bff143;
-
   --screenfont:     "Segoe UI", Arial, sans-serif;
 }
 

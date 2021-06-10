@@ -1,20 +1,3 @@
-/* Define theme variables */
-:root {
-  --textinputs:     #181B28; /* Paranoid Android */
-  --pagecolor:      #141721; /* Paranoid Android */
-  --secondarytext:  #4A5664;
-  --whitetext:      #DEDEDE; /* Paranoid Android */
-  --bodytext:       #7ddee9;
-  --purpletext:     #8053fc;
-  --replybkg:       #A44CE9;
-  --greenish:       #d7f143;
-  --activecolor:	#71f1b6;
-  --reddish:        #ff84da;
-  --yellowish:      #bff143;
-
-  --screenfont:     'Source Code Variable', 'Source Code Pro', Helvetica, Arial, sans-serif;
-}
-
 [lang] body,
 .c-message__sender a,
 .c-message_attachment {
@@ -82,7 +65,7 @@ pre {
 }
 
 .p-channel_sidebar__compose_button--iap1 {
-	background-color: var(--greenish) !important;
+	background-color: var(--yellowish) !important;
 }
 
 /* message entry */
@@ -106,7 +89,7 @@ pre {
 
 .c-button--primary,
 .c-wysiwyg_container__button.c-wysiwyg_container__button--send {
-	background: var(--greenish);
+	background: var(--yellowish);
 	color: var(--textinputs);
 }
 
@@ -188,12 +171,12 @@ pre {
 .c-member_slug--mention,
 .c-member_slug--link {
 	background: var(--textinputs);
-	color: var(--yellowish);
+	color: var(--greenish);
 }
 
 .c-member_slug--mention:hover,
 .c-member_slug--link:hover {
-	background: var(--yellowish);
+	background: var(--greenish);
 	color: var(--textinputs);
 }
 
@@ -203,16 +186,16 @@ pre {
 }
 
 .p-message_pane__top_banners>.p-message_pane__search_tip_banner {
-	background-color: var(--yellowish);
+	background-color: var(--greenish);
 }
 
 blockquote:before {
-	background: var(--yellowish);
+	background: var(--greenish);
 	opacity: 0.64;
 }
 
 .c-mrkdwn__quote {
-	color: var(--yellowish);
+	color: var(--greenish);
 }
 
 .c-menu {
@@ -237,7 +220,7 @@ blockquote:before {
 
 .c-search_autocomplete__suggestion_item,
 .c-search_query_entity__token {
-	color: var(--greenish);
+	color: var(--yellowish);
 }
 
 .c-link--button {

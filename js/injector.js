@@ -1,10 +1,14 @@
 "use strict";
 
-// What site are we theming?
+// get URL of site so we know which theme to use
 let thisSite = window.location.host;
 
-// Insert the respective CSS
-if ( thisSite === "www.messenger.com" || thisSite === "www.facebook.com" ) {
+// insert our theme colors and fonts
+doTheme();
+
+// insert correct CSS for respective sites
+if ( thisSite === "www.messenger.com" || thisSite === "www.facebook.com" )
+{
   doMessenger();
 }
 else if ( thisSite === "discord.com" ) {
@@ -23,12 +27,24 @@ else if ( thisSite === "www.linkedin.com" ) {
   doLinkedIn();
 }
 
-// www.messenger.com and https://www.facebook.com/messages/
-function doMessenger() {
-
+// link the main _theme.css for all sites
+function doTheme()
+{
   // Debug
-  console.log('******** Web Theme: ' + thisSite + ' ********');
+  let a     = chrome.extension.getURL("css/_theme.css"),
+      link  = document.createElement('link');
 
+  link.type = 'text/css';
+  link.rel  = 'stylesheet';
+  link.id   = "webThemesFramework";
+  link.href = a;
+
+  document.head.appendChild(link);
+}
+
+// link messenger.css for *.messenger.com, *.facebook.com/messages/
+function doMessenger()
+{
   let a     = chrome.extension.getURL("css/messenger.css"),
       link  = document.createElement('link');
 
@@ -40,12 +56,9 @@ function doMessenger() {
   document.head.appendChild(link);
 }
 
-// discord.com
-function doDiscord() {
-
-  // Debug
-  console.log('******** Web Theme: ' + thisSite + ' ********');
-
+// link discord.css for discord.com
+function doDiscord()
+{
   let a     = chrome.extension.getURL("css/discord.css"),
       link  = document.createElement('link');
 
@@ -57,12 +70,9 @@ function doDiscord() {
   document.head.appendChild(link);
 }
 
-// web.whatsapp.com
-function doWhatsapp() {
-
-  // Debug
-  console.log('******** Web Theme: ' + thisSite + ' ********');
-
+// link whatsapp.css for *.whatsapp.com
+function doWhatsapp()
+{
   let a     = chrome.extension.getURL("css/whatsapp.css"),
       link  = document.createElement('link');
 
@@ -74,12 +84,9 @@ function doWhatsapp() {
   document.head.appendChild(link);
 }
 
-// youtube.com
-function doYouTube() {
-
-  // Debug
-  console.log('******** Web Theme: ' + thisSite + ' ********');
-
+// link youtube.css for *.youtube.com
+function doYouTube()
+{
   let a     = chrome.extension.getURL("css/youtube.css"),
       link  = document.createElement('link');
 
@@ -91,11 +98,9 @@ function doYouTube() {
   document.head.appendChild(link);
 }
 
-function doSlack() {
-
-  // Debug
-  console.log('******** Web Theme: ' + thisSite + ' ********');
-
+// link slack.css for *.slack.com
+function doSlack()
+{
   let a     = chrome.extension.getURL("css/slack.css"),
       link  = document.createElement('link');
 
@@ -107,11 +112,9 @@ function doSlack() {
   document.head.appendChild(link);
 }
 
-function doLinkedIn() {
-
-  // Debug
-  console.log('******** Web Theme: ' + thisSite + ' ********');
-
+// link linkedin.com for *.linkedin.com
+function doLinkedIn()
+{
   let a     = chrome.extension.getURL("css/linkedin.css"),
       link  = document.createElement('link');
 

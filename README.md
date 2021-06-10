@@ -1,46 +1,54 @@
 # Web Themes Framework
 _**Quickly create themes for popular web apps.**_
 
+## How to use
+1. Download source files from https://github.com/sammilucia/web-themes-framework/archive/master.zip
+2. Edit css/_theme.css
+3. Edit colors and fonts to match your theme
+4. To test, enable Developer Mode in Chrome or Firefox, and install as an unpacked Extension 😊
+
+_Note: The license allows you to repackage and upload as a Chrome Extension/Firefox Add-on for your own theme 😊_
+
 ## About
 The goal of this project is that theme creators can create _their own_ Chrome Extension that themes the most popular websites, and package these as a Chrome extension, quickly, reliably, and easily, and without any programming experience or knowledge.
 
-## How it works
-1. Download the source files however you want (from https://github.com/sammilucia/web-themes-framework/archive/master.zip)
-2. Edit css/config.css
-3. Change the colors and fonts however you wish
-4. Enable Developer Mode in Chrome, and install it as an unpacked Extension 😊
-
-## Decisions
-There are three ways I'm considering this working, I haven't decided yet (let me know your thoughts?):
-1. Edit a config.css file, to add your theme colors, fonts, etc... and all the supported websites will be automagically themed
-2. There's no config.css file, instead you edit the web app files directly (e.g. messenger.css), which is more work but gives more control over individual apps
-3. Edit config.css to get everything generally themed, but you can customize apps directly in their own CSS if you want (but it's not required)
-
 ## Why, when there are others?
-A few reasons. One there are Extensions such as Stylish which let you theme specific websites, but they're not aimed at _themers_, and being able to release your own Extension that other people can easily use. Secondly, of those sorts of Extensions I've seen, they generally have access to _all_ websites you visit, and are _not_ open source, which I don't personally like. I think this can be a much better option for themers.
+There are Extensions such as Stylish which let you theme specific websites, but they're not aimed at _themers_—You can't release your own Extension that other people can easily use.
+
+Secondly, I'm not a fan of Extensions that have access to _all_ the websites you visit, expecially if the Extensions aren't open source.
+
+Thirdly – and perhaps the biggest reason – tools like Stylish are a LOT of work, which has to be repeated for every theme. The idea of WTF is all the hard work is done for you—you just put in colours and fonts and DONE 😊.
+
+Lastly, WTF has minimal access to website, is completely open source, and is free to customize and distribute with your own themes.
 
 ## Web apps supported so far
-1. Facebook Messenger (both standalone and through Facebook)
+1. Facebook Messenger (both standalone and through Facebook)—currently broken needs fixing
 2. Discord
 3. Whatsapp
+4. Slack (Enter `#141721,#2C3849,#202436,#9378FF,#202436,#9378FF,#71F1B6,#7553FC,#181B28,#606873` as a Slack theme to start)
+5. LinkedIn (just starting work)
+6. YouTube (just starting work)
 
 ## Contributing
-I have okay coding skills, but I could definitely use help. Skills required:
-- JS, jQuery (probably), and semantic CSS
-- Good coding practices
-- Graphic design skills
+I could definitely use help. Skills required:
+- Really just a good grasp of CSS!
 
 ## Bugs
-Please let me know any problems. A github page will be up soon
+Please create a GitHub issue for any problems
 
 ## License
-Because this Extension is designed as a framework, you are free to edit it, repackage it, and release it under the The MIT License. The License file should always be included so
+You are free to edit it, repackage, and release Web Themes Framework themes under the The MIT License. The License file must always be included.
+
+If you can mention "Web Themes Framework" when you release this will help people find this project and make more themes 😊 (but it's not necessary to mention).
 
 ## To do
-1. Create a single CSS file for storing colours and fonts for all web apps
-2. Fix Messenger support
+- Fix Messenger support
+- Implement YouTube, LinkedIn support
 
 ## Changelog
+### Version 0.4 - 9 Jun 2021
+- Added global _theme.css. You can now customize most colors/fonts of all websites from this single file
+
 ### Version 0.3.3 - 9 Jun 2021
 - Fixed WhatsApp support
 

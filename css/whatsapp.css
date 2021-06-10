@@ -1,24 +1,3 @@
-/* Define theme variables */
-:root {
-  --textinputs:     #181B28;
-  --pagecolor:      #141721;
-  --secondarytext:  #4A5664;
-  --whitetext:      #DEDEDE;
-  --bodytext:       #7DDEE9;
-  --purpletext:     #8053fc;
-  --replybkg:       #A44CE9;
-  --yellowish:      #d7f143;
-  --activecolor:    #71F1B6;
-  --reddish:        #FF84DA;
-  --greenish:       #BFF143;
-
-  --replybkgdark:   #A44CE9EE;
-  --activecolordark:#71f1b6EE;
-  --bodytextdark:   #7DDEE9EE;
-
-  --screenfont:     'Source Code Variable', 'Source Code Pro', sans-serif;
-}
-
 .dark {
   /* panels */
   --startup-background: var(--pagecolor);
@@ -97,12 +76,12 @@ html[dir] ._20zqk {
 
 /* your messages background gradient */
 html[dir] .message-out ._3XpKm {
-  background: linear-gradient(0deg, var(--purpletext) 0%, var(--replybkg) 100%);
+  background: linear-gradient(0deg, var(--gradient1) 0%, var(--replybkg) 100%);
 }
 
 /* incoming messages background gradient */
 html[dir] .message-in ._3XpKm {
-  background: linear-gradient(0deg, var(--activecolordark) 0%, var(--bodytextdark) 100%);
+  background: linear-gradient(0deg, var(--activecolor) 0%, var(--bodytext) 100%);
 }
 
 /* fix ugly gaps between elements */

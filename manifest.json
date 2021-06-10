@@ -5,7 +5,7 @@
 
     "description": "Quickly create themes for popular web apps.",
     
-    "version": "0.3.3",
+    "version": "0.4",
     
     "author": "Samantha Glocker",
         
@@ -26,6 +26,7 @@
     
     "web_accessible_resources":
     [
+        "css/_theme.css",
         "css/config.css",
         "css/messenger.css",
         "css/discord.css",

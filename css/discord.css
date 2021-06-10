@@ -1,25 +1,6 @@
-/* Define theme variables */
-:root {
-  --textinputs:     #181B28; /* Paranoid Android */
-  --pagecolor:      #141721; /* Paranoid Android */
-  --secondarytext:  #4B535E;
-  --whitetext:      #DEDEDE; /* Paranoid Android */
-  --bodytext:       #7DC5CD;
-  --purpletext:     #A44CE9;
-  --replytext:      #B3DCDE;
-  --replybkg:       #7646ff;
-  --contacts:       #7DC5CD; /* Paranoid Android */
-  --gradientleft:   rgba(90,50,230,0.9);
-  --gradientright:  rgba(173,83,240,0.8);
-
-  --screenfont:     'Source Code Variable', 'Source Code Pro', Helvetica, Arial, sans-serif;
-}
-
-/* This overrides Discord's own variables with our own */
-/* You shouldn't need to edit these, they will pull from the top variables */
-/* But you can if you want :) */
+/* overwrite Discord's variables with our own */
 .theme-dark {
-    --header-primary: var(--purpletext); /* currently purple */
+    --header-primary: var(--purpletext);
     --header-secondary: var(--bodytext);
     --text-normal: var(--bodytext);
     --text-muted: var(--secondarytext);
@@ -46,9 +27,9 @@
     --activity-card-background: var(--textinputs);
     --deprecated-panel-background: var(--textinputs);
     --deprecated-card-bg: var(--textinputs);
-    --deprecated-card-editable-bg: var(--gradientright);
+    --deprecated-card-editable-bg: var(--gradient2);
     --deprecated-store-bg: var(--textinputs);
-    --deprecated-quickswitcher-input-background: var(--gradient);
+    --deprecated-quickswitcher-input-background: var(--gradient1);
     --deprecated-quickswitcher-input-placeholder: var(--bodytext);
     --deprecated-text-input-bg: var(--textinputs);
     --deprecated-text-input-border: var(--textinputs);
@@ -90,7 +71,7 @@ body {
 
 /* Scrollbar grab bar */
 .theme-dark .scrollerThemed-2oenus.themedWithTrack-q8E3vB .scroller-2FKFPG::-webkit-scrollbar-thumb {
-  background: linear-gradient(130deg, var(--gradientright), var(--gradientleft)) !important;
+  background: linear-gradient(130deg, var(--gradient2), var(--gradient1)) !important;
   border: 1px solid var(--textinputs);
 }
 
@@ -105,7 +86,7 @@ body {
 }
 
 .theme-dark .isMentioned-N-h9aa .mention {
-  background: linear-gradient(130deg, var(--gradientright), var(--gradientleft)) !important;
+  background: linear-gradient(130deg, var(--gradient2), var(--gradient1)) !important;
   color: var(--bodytext);
 }
 

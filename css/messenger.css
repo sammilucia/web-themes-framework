@@ -1,19 +1,3 @@
-/* Define theme variables */
-:root {
-  --textinputs:     #181B28; /* Paranoid Android */
-  --pagecolor:      #141721; /* Paranoid Android */
-  --secondarytext:  #4B535E;
-  --whitetext:      #DEDEDE; /* Paranoid Android */
-  --bodytext:       #7BBFFA;
-  --replytext:      #B3DCDE;
-  --replybkg:       ;
-  --contacts:       #7DC5CD; /* Paranoid Android */
-  --gradientleft:   rgba(90,50,230,0.9);
-  --gradientright:  rgba(173,83,240,0.8);
-
-  --screenfont:     'Source Code Variable', 'Source Code Pro', Helvetica, Arial, sans-serif;
-}
-
 body,
 ._4sp8,
 ._5irm._7mkm,
@@ -24,7 +8,7 @@ body,
 
 /* Fiddle with reply text since it's applied to the element */
 ._nd_ ._hh7._6ybn {
-  background: linear-gradient(130deg, var(--gradientleft) 20%, var(--gradientright) 100%) !important;
+  background: linear-gradient(130deg, var(--gradient1) 20%, var(--gradient2) 100%) !important;
 }
 
 #facebook ._-kb.segoe {
