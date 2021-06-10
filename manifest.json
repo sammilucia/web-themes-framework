@@ -4,11 +4,33 @@
     "name": "Web Themes Framework",
 
     "description": "Quickly create themes for popular web apps.",
-    
-    "version": "0.4",
-    
+ 
     "author": "Samantha Glocker",
-        
+
+    "version": "0.4.1",
+
+    "icons":
+    {
+        "16":   "img/icon-16.png",
+		"32":   "img/icon-32.png",
+		"64":   "img/icon-64.png",
+		"128":  "img/icon-128.png",
+        "256":  "img/icon-256.png"
+	},
+
+    "browser_action":
+	{
+		"default_icon":
+		{
+			"16":   "img/icon-16.png",
+			"32":   "img/icon-32.png",
+            "64":   "img/icon-64.png",
+            "128":  "img/icon-128.png",
+            "256":  "img/icon-256.png"
+		},
+		"default_title": "WTF. Quickly create themes for popular web apps."
+	},
+
     "content_scripts":
     [{
         "matches":
@@ -23,7 +45,7 @@
         ],
         "js": ["js/injector.js"]
     }],
-    
+
     "web_accessible_resources":
     [
         "css/_theme.css",

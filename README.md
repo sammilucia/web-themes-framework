@@ -44,10 +44,12 @@ If you can mention "Web Themes Framework" when you release this will help people
 ## To do
 - Fix Messenger support
 - Implement YouTube, LinkedIn support
+- Twitter? Twitch? ...?
 
 ## Changelog
-### Version 0.4 - 9 Jun 2021
+### Version 0.4.1 - 9 Jun 2021
 - Added global _theme.css. You can now customize most colors/fonts of all websites from this single file
+- Added icon
 
 ### Version 0.3.3 - 9 Jun 2021
 - Fixed WhatsApp support
