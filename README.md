@@ -45,10 +45,13 @@ If you can mention "Web Themes Framework" when you release this will help people
 - Finalise Slack (problems with a few popups)
 - Finalise Messenger (problems with a few popups)
 - Try to make WhatsApp not ugly
-- Finish YouTube text colours
 - Implement LinkedIn, Twitter, Teams, ...
 
 ## Changelog
+### Version 0.4.4 - 11 Jun 2021
+- Rationalised code and minor theme tweaks
+- Finished YouTube tweaks
+
 ### Version 0.4.3 - 9 Jun 2021
 - Tweaked Messenger theme
 - Tweaked WhatsApp theme

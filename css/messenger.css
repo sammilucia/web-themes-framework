@@ -48,5 +48,5 @@ body,
 
 /* override quoted message backgrounds */
 .khkgorpb {
-    background: linear-gradient(0deg, rgba(var(--gradient1), 0.2) 0%, rgba(var(--gradient1), 0.3) 100%);
+    background: linear-gradient(0deg, rgba(var(--gradient1), 0.2) 0%, rgba(var(--gradient1), 0.4) 100%);
 }
