@@ -1,0 +1,46 @@
+body {
+    font-family: var(--screenfont);
+    color: var(--whitetext) !important;
+}
+
+a.result__a {
+    color: var(--bodytext) !important;
+}
+
+.result__url {
+    color: var(--replybkg) !important;
+}
+
+.module--about {
+    background: var(--textinputs) !important;
+}
+
+.module:not(.module--carousel):not(.module--placeholder):not(.module--images) {
+    border: none !important;
+}
+
+.feedback-prompt__link {
+    color: var(--secondarytext) !important;
+}
+
+.site-wrapper.js-site-wrapper {
+    background: var(--pagecolor);
+}
+    
+.header-wrap.js-header-wrap {
+    background: var(--textinputs);
+    box-shadow: none;
+}
+
+.search--adv.search--header.js-search-form.has-text {
+    background: var(--pagecolor);
+    border: none;
+}
+
+.btn.feedback-btn {
+    background: var(--textinputs) !important;
+}
+
+.btn.feedback-btn a {
+    color: var(--secondarytext) !important;
+}

@@ -51,6 +51,7 @@ If you can mention "Web Themes Framework" when you release this will help people
 ### Version 0.4.4 - 11 Jun 2021
 - Rationalised code and minor theme tweaks
 - Finished YouTube tweaks
+- Added DuckDuckGo support
 
 ### Version 0.4.3 - 9 Jun 2021
 - Tweaked Messenger theme

@@ -1,14 +1,14 @@
 "use strict";
 
-// get URL of site so we know which theme to use
+// get name of site from URL so we know which theme to use:
 const urlParts = window.location.hostname.split( '.' );
 const cssName = urlParts[ urlParts.length - 2 ];
 
-// insert theme colors and fonts
+// insert theme colors and fonts:
 addStyleSheet('_theme');
 addStyleSheet(cssName);
 
-// link the main _theme.css for all sites
+// link CSS files in site <head>:
 function addStyleSheet(styleSheet)
 {
 	// Debug

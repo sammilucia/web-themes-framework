@@ -41,7 +41,8 @@
             "*://*.whatsapp.com/*",
             "*://*.youtube.com/*",
             "*://*.slack.com/*",
-            "*://*.linkedin.com/*"
+            "*://*.linkedin.com/*",
+            "*://duckduckgo.com/*"
         ],
         "js": ["js/injector.js"]
     }],
@@ -55,6 +56,7 @@
         "css/whatsapp.css",
         "css/youtube.css",
         "css/slack.css",
-        "css/linkedin.css"
+        "css/linkedin.css",
+        "css/duckduckgo.css"
     ]
 }
