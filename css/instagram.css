@@ -137,3 +137,8 @@ a.r8ZrO {
 .ONnYN {
 	border-width: 0px !important;
 }
+
+[aria-label='Comment Options'] {
+	background: none !important;
+	fill: var(--pagecolor) !important;
+}
