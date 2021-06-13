@@ -273,3 +273,19 @@ blockquote:before {
 	background: var(--textinputs);
 	border: none;
 }
+
+.p-bookmarks_bar,
+.p-view_header--with-bookmarks-bar {
+	background: var(--pagecolor);
+	color: var(--purpletext);
+}
+
+.p-view_header__member_name {
+	color: var(--replybkg);
+}
+
+.p-view_header__actions {
+	border-radius: 50%;
+	background: var(--yellowish);
+	color: var(--pagecolor);
+}

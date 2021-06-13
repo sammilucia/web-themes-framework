@@ -7,7 +7,7 @@
  
     "author": "Samantha Glocker",
 
-    "version": "0.4.4",
+    "version": "0.4.5",
 
     "icons":
     {
@@ -42,7 +42,8 @@
             "*://*.youtube.com/*",
             "*://*.slack.com/*",
             "*://*.linkedin.com/*",
-            "*://duckduckgo.com/*"
+            "*://duckduckgo.com/*",
+            "*://*.instagram.com/*"
         ],
         "js": ["js/injector.js"]
     }],
@@ -57,6 +58,7 @@
         "css/youtube.css",
         "css/slack.css",
         "css/linkedin.css",
-        "css/duckduckgo.css"
+        "css/duckduckgo.css",
+        "css/instagram.css"
     ]
 }

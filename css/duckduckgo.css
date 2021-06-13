@@ -1,6 +1,7 @@
 body {
-    font-family: var(--screenfont);
+    font-family: var(--screenfont) !important;
     color: var(--whitetext) !important;
+    background: var(--pagecolor) !important;
 }
 
 a.result__a {
@@ -43,4 +44,64 @@ a.result__a {
 
 .btn.feedback-btn a {
     color: var(--secondarytext) !important;
+}
+
+.highlight {
+    background: var(--textinputs) !important;
+    border: 1px solid var(--textinputs) !important;
+}
+
+/* override weather formatting */
+.forecast-wrapper .module--forecast .module__items-item,
+.module:not(.module--carousel):not(.module--placeholder):not(.module--images) {
+    background: var(--textinputs) !important;
+    box-shadow: none !important;
+    color: var(--whitetext) !important;
+    border: none !important;
+}
+
+.module__more-at-and-feedback .module__more-at a {
+    color: var(--secondarytext) !important;
+}
+
+/* override related searches */
+.related-searches__item-text::before {
+    color: var(--secondarytext);
+}
+
+.results--sidebar .related-searches__title-short {
+    color: var(--yellowish);
+}
+
+/* override image and video search colors */
+.tile,
+.tile .tile__body,
+.zci--type--tiles:not(.is-fallback).is-full-page.is-expanded,
+.zci--type--tiles:not(.is-fallback).is-full-page.is-expanded .metabar:not(.is-stuck) {
+    background: var(--pagecolor) !important;
+    border: none !important;
+    box-shadow: none !important;
+}
+
+.tile--img__title,
+.tile .tile__title {
+    color: var(--bodytext) !important;
+}
+
+.tile__count {
+    color: var(--secondarytext) !important;
+}
+
+.metabar__dropdowns .dropdown .dropdown__button {
+    color: var(--replybkg) !important;
+}
+
+.module__toggle {
+	background: var(--textinputs) !important;
+	color: var(--secondarytext) !important;
+	border-top: none !important;
+}
+
+.about-info-box__info-row {
+	border: none !important;
 }

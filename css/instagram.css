@@ -1,0 +1,113 @@
+body,
+button {
+	font-family: var(--screenfont) !important;
+	color: var(--bodytext) !important;
+}
+
+input,
+textarea {
+	font-family: var(--screenfont) !important;
+	color: var(--whitetext) !important;
+}
+
+input::placeholder,
+textarea::placeholder {
+	color: var(--midtext) !important;
+}
+
+a, a:visited {
+	color: var(--bodytext) !important;s
+}
+
+.sqdOP {
+	color: var(--replybkg) !important;
+}
+
+button,
+.zV_Nj,
+a.FPmhX.MBL3Z,
+.eebAO,
+.KV-D4 {
+	color: var(--whitetext) !important;
+}
+
+.TOh1s {
+	background: none !important;
+}
+
+.o64aR,
+.Di7vw,
+._8UZ6e,
+.tHaIX,
+.x3qfX {
+	background-color: var(--pagecolor) !important;
+	border: none !important;
+}
+
+._lz6s,
+._8Rm4L,
+.VideM,
+._01UL2,
+._1XyCr {
+	background-color: var(--textinputs) !important;
+	border: none !important;
+	border-radius: 5px !important;
+}
+
+.pbgfb {
+	border-radius: 2px !important;
+}
+
+.UE9AK,
+.sH9wk {
+	border: none !important;
+}
+
+.aOOlW {
+	border-color: var(--pagecolor) !important;
+}
+
+.yWX7d._8A5w5, a.yWX7d._8A5w5 {
+	color: var(--bodytext) !important;
+}
+
+a.r8ZrO {
+	color: var(--replybkg) !important;
+}
+
+._8-yf5 {
+	fill: var(--secondarytext);
+}
+
+[aria-label='Unlike'] {
+	fill: var(--red);
+}
+
+._8-yf5::active {
+	fill: var(--reddish) !important;
+}
+
+.TKi86 {
+	background: var(--red) !important;
+}
+
+.c-Yi7,
+.c-Yi7:visited,
+._0PwGv {
+	color: var(--secondarytext) !important;
+}
+
+.SkY6J .DINPA,
+.SkY6J .l93RR,
+.SkY6J .K5OFK:not(:last-of-type)::after {
+	color: var(--pagecolor) !important;
+}
+
+.cqXBL,
+.cqXBL:visited,
+.gmFkV,
+.gmFkV:visited,
+.JYWcJ,
+.JYWcJ:link {
+	color: var(--yellowish) !important;
+}

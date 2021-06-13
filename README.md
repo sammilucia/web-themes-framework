@@ -26,10 +26,12 @@ Lastly, WTF has minimal access to website, is completely open source, and is fre
 ## Web apps supported so far
 1. Facebook Messenger (both standalone and through Facebook)
 2. Discord
-3. Whatsapp
+3. WhatsApp
 4. YouTube
-5. Slack (Enter `#141721,#2C3849,#202436,#9378FF,#202436,#9378FF,#71F1B6,#7553FC,#181B28,#606873` as a Slack theme to start)
-6. LinkedIn (just starting work)
+5. Instagram
+6. DuckDuckGo
+7. Slack (Enter `#141721,#2C3849,#202436,#9378FF,#202436,#9378FF,#71F1B6,#7553FC,#181B28,#606873` as a Slack theme to start)
+8. LinkedIn (just starting work)
 
 ## Contributing
 I could definitely use help. Skills required:
@@ -48,6 +50,11 @@ If you can mention "Web Themes Framework" when you release this will help people
 - Implement LinkedIn, Twitter, Teams, ...
 
 ## Changelog
+### Version 0.4.5 - 12 Jun 2021
+- Fixes due to changes in Slack
+- Updates to DuckDuckGo support
+- Added Instagram support
+
 ### Version 0.4.4 - 11 Jun 2021
 - Rationalised code and minor theme tweaks
 - Finished YouTube tweaks
