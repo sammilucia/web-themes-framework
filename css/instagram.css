@@ -23,11 +23,16 @@ a, a:visited {
 	color: var(--replybkg) !important;
 }
 
+h1 {
+	color: var(--whitetext) !important;
+}
+
 button,
 .zV_Nj,
 a.FPmhX.MBL3Z,
 .eebAO,
-.KV-D4 {
+.KV-D4,
+._32eiM {
 	color: var(--whitetext) !important;
 }
 
@@ -39,7 +44,8 @@ a.FPmhX.MBL3Z,
 .Di7vw,
 ._8UZ6e,
 .tHaIX,
-.x3qfX {
+.x3qfX,
+.W4P49 {
 	background-color: var(--pagecolor) !important;
 	border: none !important;
 }
@@ -48,7 +54,8 @@ a.FPmhX.MBL3Z,
 ._8Rm4L,
 .VideM,
 ._01UL2,
-._1XyCr {
+._1XyCr,
+.ltEKP .QBXjJ {
 	background-color: var(--textinputs) !important;
 	border: none !important;
 	border-radius: 5px !important;
@@ -59,7 +66,10 @@ a.FPmhX.MBL3Z,
 }
 
 .UE9AK,
-.sH9wk {
+.sH9wk,
+.JyscU.ePUX4 .eo2As,
+.JyscU .Slqrh,
+.fx7hk {
 	border: none !important;
 }
 
@@ -80,7 +90,7 @@ a.r8ZrO {
 }
 
 [aria-label='Unlike'] {
-	fill: var(--red);
+	fill: var(--red) !important;
 }
 
 ._8-yf5::active {
@@ -93,7 +103,15 @@ a.r8ZrO {
 
 .c-Yi7,
 .c-Yi7:visited,
-._0PwGv {
+._0PwGv,
+.-vDIg,
+.tc8A9,
+.FH9sR,
+.g47SY,
+.-nal3,
+.-nal3:active,
+.-nal3:visited,
+.-nal3:hover {
 	color: var(--secondarytext) !important;
 }
 
@@ -110,4 +128,12 @@ a.r8ZrO {
 .JYWcJ,
 .JYWcJ:link {
 	color: var(--yellowish) !important;
+}
+
+.s2MYR {
+	background: var(--textinputs) !important;
+}
+
+.ONnYN {
+	border-width: 0px !important;
 }
