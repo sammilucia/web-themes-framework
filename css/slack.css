@@ -88,7 +88,8 @@ pre {
 }
 
 .c-button--primary,
-.c-wysiwyg_container__button.c-wysiwyg_container__button--send {
+.c-wysiwyg_container__button.c-wysiwyg_container__button--send,
+.c-wysiwyg_container__button.c-wysiwyg_container__button--send_options {
 	background: var(--yellowish);
 	color: var(--textinputs);
 }
@@ -266,13 +267,16 @@ blockquote:before {
 	box-shadow: none;
 }
 
-.c-texty_input .ql-editor .ql-code-block,
-.c-texty_input .ql-editor>:not(.ql-code-block)+.ql-code-block,
-.c-texty_input .ql-editor .ql-code-block:after,
-.c-texty_input .ql-editor>.ql-code-block:first-child {
-	background: var(--textinputs);
+.c-texty_input_unstyled__container .ql-editor > :not(.ql-code-block) + .ql-code-block,
+.c-texty_input_unstyled__container .ql-editor .ql-code-block,
+.c-texty_input_unstyled__container .ql-editor .ql-code-block:after {
+	background: var(--pagecolor);
 	border: none;
+	font-family: var(--screenfont) !important;
+	font-size: 15px;
+	color: var(--reddish) !important;
 }
+
 
 .p-bookmarks_bar,
 .p-view_header--with-bookmarks-bar {
@@ -285,7 +289,20 @@ blockquote:before {
 }
 
 .p-view_header__actions {
+	background: none;
+}
+
+.p-view_header__actions > .c-button-unstyled {
 	border-radius: 50%;
 	background: var(--yellowish);
 	color: var(--pagecolor);
+}
+
+.p-avatar_stack--details {
+	background: none !important;
+}
+
+.c-timestamp__label,
+.c-message__edited_label {
+	color: var(--secondarytext);
 }

@@ -50,6 +50,10 @@ If you can mention "Web Themes Framework" when you release this will help people
 - Implement LinkedIn, Twitter, Teams, ...
 
 ## Changelog
+### Bersion 0.4.5 - 11 Jul 2021
+- Fixed bugs with Slack buttons due to Slack internal changes
+- Removed "Messenger for Windows" panel
+
 ### Version 0.4.5 - 12 Jun 2021
 - Fixes due to changes in Slack
 - Updates to DuckDuckGo support

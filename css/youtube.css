@@ -35,6 +35,9 @@ yt-chip-cloud-chip-renderer[chip-style="STYLE_HOME_FILTER"] {
 
 /* remove video bottom gradient */
 .ytp-gradient-bottom {
-    background: none;
+    visibility: hidden;
 }
 
+button.yt-icon-button[aria-pressed="true"] {
+    color: var(--bodytext) !important;
+}

@@ -50,3 +50,8 @@ body,
 .khkgorpb {
     background: linear-gradient(0deg, rgba(var(--gradient1), 0.2) 0%, rgba(var(--gradient1), 0.4) 100%);
 }
+
+/* remove 'Messenger for Windows' panel */
+.srn514ro {
+    display: none;
+}
