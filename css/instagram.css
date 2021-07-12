@@ -31,7 +31,6 @@ button,
 .zV_Nj,
 a.FPmhX.MBL3Z,
 .eebAO,
-.KV-D4,
 ._32eiM {
 	color: var(--whitetext) !important;
 }
@@ -79,6 +78,11 @@ a.FPmhX.MBL3Z,
 
 .yWX7d._8A5w5, a.yWX7d._8A5w5 {
 	color: var(--bodytext) !important;
+}
+
+/* Follow button color */
+.y3zKF:not(.yWX7d) {
+	color: var(--whitetext) !important;
 }
 
 a.r8ZrO {
@@ -141,4 +145,39 @@ a.r8ZrO {
 [aria-label='Comment Options'] {
 	background: none !important;
 	fill: var(--pagecolor) !important;
+}
+
+/* override chat page color */
+.oYYFH,
+.QOqBd,
+.-qQT3:hover,
+.X3a-9 {
+	background: var(--textinputs) !important;
+}
+
+/* override chat borders */
+.oNO81,
+.pV7Qt,
+.S-mcP,
+.CMoMH,
+.X3a-9 {
+	border: 0 !important;
+}
+
+/* override chat box backgrounds */
+.S-mcP,
+.N9abW,
+.DPiy6,
+.oNO81 {
+	background: var(--pagecolor) !important;
+}
+
+/* override chat bubble backgrounds */
+._6FEQj {
+	background: linear-gradient( rgba( var(--gradient2), 0.5 ), rgba( var(--gradient1), 0.7 ) );
+}
+
+/* override chat bubble text color */
+.KV-D4 {
+	color: var(--bodytext) !important;
 }

@@ -50,7 +50,8 @@ If you can mention "Web Themes Framework" when you release this will help people
 - Implement LinkedIn, Twitter, Teams, ...
 
 ## Changelog
-### Bersion 0.4.5 - 11 Jul 2021
+### Bersion 0.4.7 - 11 Jul 2021
+- Themed Instagram messages
 - Fixed bugs with Slack buttons due to Slack internal changes
 - Removed "Messenger for Windows" panel
 
