@@ -1,26 +1,26 @@
 :root {
 	/* define your theme's colors here: */
-	--textinputs:		#181b28;	/* Paranoid Android: BaseColor */
-	--pagecolor:		#141721;	/* Paranoid Android: Darker */
-	--scrollbars:		#353849;
-	--secondarytext:	#4A5664;
-	--midtext:			#7a8a9b;
-	--whitetext:		#DEDEDE;	/* Paranoid Android: White */
-	--bodytext:			#79e6f3;	/* Paranoid Android: CyanText */
-	--purpletext:		#8c00fd;	/* Paranoid Android: PurpleGradient1 */
-	--replybkg:			#c574dd;	/* Paranoid Android: VioletText */
-	--yellowish:		#d7f143;
-	--activecolor:		#5BE6B6;
-	--red:				#ff007a;	/* Paranoid Android: NebulaClose */
-	--reddish:			#ff85c0;	/* Lightened version of NebulaClose */
-	--green:			#84ff39;	/* Paranoid Android: NebulaMax */
-	--greenish:			#bff143;
+	--textinputs:		#171721;	/* Tokyo Night: BaseColor */
+	--pagecolor:		#1C1D2B;	/* Tokyo Night: Darker #171721; */
+	--scrollbars:		#393B54;
+	--secondarytext:		#4D5575;
+	--midtext:			#8387A3;
+	--whitetext:		#A0A3BD;	/* Tokyo Night: White */
+	--bodytext:			#A0A3BD;	/* Tokyo Night: MidGrey */
+	--purpletext:		#C3A4F8;	/* Tokyo Night: PurpleGradient1 */
+	--replybkg:			#B699E3;	/* Tokyo Night: VioletText */
+	--yellowish:		#FFA86F;	/* #C9875B; */
+	--activecolor:		#09c1dc;
+	--red:			#F88199;	/* Tokyo Night: NebulaClose */
+	--reddish:			#FF859D;	/* Lightened version of NebulaClose */
+	--green:			#C1F487;	/* Tokyo Night: NebulaMax */
+	--greenish:			#A8D475;
 
-	--gradient1:		90, 51, 230;	/* Paranoid Android: PurpleGradient1 */
-	--gradient2:		174, 84, 240;	/* Paranoid Android: VioletGradient2 */
-	--gradient3:		91, 230, 182;
-	--gradient4:		121, 230, 243;
+	--gradient1:		182, 153, 233;	/* Tokyo Night: PurpleGradient1 */
+	--gradient2:		195, 164, 248;	/* Tokyo Night: VioletGradient2 */
+	--gradient3:		133, 172, 248;
+	--gradient4:		136, 175, 255;
 
 	/* define your theme's fonts here: */
-	--screenfont:		 'Source Code Pro', 'Source Code Variable', sans-serif;
+	--screenfont:		'JetBrainsMono Nerd Font Mono', sans-serif;
 }

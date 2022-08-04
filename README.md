@@ -50,6 +50,9 @@ If you can mention "Web Themes Framework" when you release this will help people
 - Implement LinkedIn, Twitter, Teams, ...
 
 ## Changelog
+### Version 0.4.8 - 18 Jul 2021
+- Themed main DuckDuckGo page (before searching)
+
 ### Version 0.4.7 - 11 Jul 2021
 - Themed Instagram messages
 - Fixed bugs with Slack buttons due to Slack internal changes

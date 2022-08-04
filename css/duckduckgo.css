@@ -1,4 +1,5 @@
-body {
+body,
+.page-chrome_newtab {
     font-family: var(--screenfont) !important;
     color: var(--whitetext) !important;
     background: var(--pagecolor) !important;
@@ -12,7 +13,8 @@ a.result__a {
     color: var(--replybkg) !important;
 }
 
-.module--about {
+.module--about,
+.search--home {
     background: var(--textinputs) !important;
 }
 

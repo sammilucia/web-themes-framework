@@ -6,12 +6,18 @@
 	--conversation-panel-background: var(--pagecolor);
 	--panel-header-background: var(--pagecolor);
 	--panel-background-colored: var(--pagecolor);
+	--incoming-background-deeper: var(--scrollbars);
+	--outgoing-background-deeper: var(--scrollbars);
+	--popup-panel-background: var(--scrollbars);
 
 	/* general text */
 	--primary-strong: var(--bodytext);
 	--secondary: var(--secondarytext);
 	--system-message-text: var(--secondarytext);
 	--notification-e2e-text: var(--bodytext);
+	--secondary-stronger: var(--purpletext);
+	--primary-strongest: var(--yellowish);
+	--link-preview: var(--activecolor);
 
 	/* contacts */
 	--background-default-active: var(--textinputs);
@@ -20,13 +26,16 @@
 	--avatar-placeholder-primary: var(--secondarytext);
 	--avatar-placeholder-background: var(--pagecolor);
 	--background-default-hover: var(--textinputs);
+	--unread-marker-background: var(--yellowish);
+	--unread-timestamp: var(--yellowish);
+	--icon-bright-highlight: var(--purpletext);
 
 	/* icons */
 	--icon: var(--secondarytext);
 	--icon-ack: var(--activecolor);
 	--chatlist-icon: var(--secondarytext);
 	--danger: var(--reddish);
-	--panel-header-icon: var(--secondary);
+	--panel-header-icon: var(--secondarytext);
 	--notification-e2e-icon: var(--yellowish);
 
 	/* text input */
@@ -47,6 +56,11 @@
 	--system-message-background: var(--pagecolor);
 	--bubble-meta: var(--secondarytext);
 	--notification-e2e-background: var(--pagecolor);
+
+	/* misc */
+	--audio-progress-incoming: var(--green);
+	--audio-progress-outgoing: var(--green);
+	--active-tab-marker: var(--green);
 }
 
 body {
@@ -141,4 +155,22 @@ html[dir] ._3Ppzm {
 html[dir] .TbtXF,
 html[dir] .dark ._3LX7r {
 	border: none;
+}
+
+/* hide 'allow notifications' message */
+._3z9_h {
+	display: none;
+}
+
+html[dir] ._3yWey {
+	background: none;
+}
+
+html[dir=ltr] ._2copG._18oGY,
+html[dir=ltr] ._1UyGr._18oGY {
+	background: var(--pagecolor);
+}
+
+html[dir] .zaKsw:after {
+	border-top: none;
 }

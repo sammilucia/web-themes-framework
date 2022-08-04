@@ -152,6 +152,19 @@ pre {
 	background: var(--textinputs);
 }
 
+.p-flexpane__title_container, .c-button-unstyled {
+	color: var(--activecolor);
+}
+
+.p-channel_sidebar__banner--mentions {
+	background-color: var(--pagecolor);
+}
+
+.p-view_header__avatar_stack_inner_container,
+.p-view_header__avatar_stack_container {
+	border-color: var(--scrollbars);
+}
+
 .c-icon_button {
 	color: var(--secondarytext) !important;
 }
@@ -289,6 +302,11 @@ blockquote:before {
 }
 
 .p-view_header__actions {
+	background: none;
+}
+
+.c-wysiwyg_container__formatting,
+.p-workspace__primary_view_footer--float {
 	background: none;
 }
 
