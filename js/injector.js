@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 "use strict";
 
 // get name of site from URL so we know which theme to use:
@@ -22,3 +23,4 @@ function addStyleSheet(styleSheet)
 	console.log( 'injecting Web Themes Framework' );
 	document.head.appendChild(link);
 }
+>>>>>>> 1e47d91251e02c37faaebc7d2c9a7dccde9a1aa1

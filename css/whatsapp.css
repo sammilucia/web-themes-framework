@@ -1,3 +1,181 @@
+<<<<<<< HEAD
+.dark {
+	/* panels */
+	--startup-background: var(--pagecolor);
+	--app-background: var(--pagecolor);
+	--intro-background: var(--pagecolor);
+	--conversation-panel-background: var(--pagecolor);
+	--panel-header-background: var(--pagecolor);
+	--panel-background-colored: var(--pagecolor);
+	--incoming-background-deeper: var(--scrollbars);
+	--outgoing-background-deeper: var(--scrollbars);
+	--popup-panel-background: var(--scrollbars);
+
+	/* general text */
+	--primary-strong: var(--bodytext);
+	--secondary: var(--secondarytext);
+	--system-message-text: var(--secondarytext);
+	--notification-e2e-text: var(--bodytext);
+	--secondary-stronger: var(--purpletext);
+	--primary-strongest: var(--yellowish);
+	--link-preview: var(--activecolor);
+
+	/* contacts */
+	--background-default-active: var(--textinputs);
+	--background-default: var(--pagecolor);
+	--avatar-background: var(--pagecolor);
+	--avatar-placeholder-primary: var(--secondarytext);
+	--avatar-placeholder-background: var(--pagecolor);
+	--background-default-hover: var(--textinputs);
+	--unread-marker-background: var(--yellowish);
+	--unread-timestamp: var(--yellowish);
+	--icon-bright-highlight: var(--purpletext);
+
+	/* icons */
+	--icon: var(--secondarytext);
+	--icon-ack: var(--activecolor);
+	--chatlist-icon: var(--secondarytext);
+	--danger: var(--reddish);
+	--panel-header-icon: var(--secondarytext);
+	--notification-e2e-icon: var(--yellowish);
+
+	/* text input */
+	--rich-text-panel-background: var(--pagecolor);
+	--compose-input-background: var(--textinputs);
+	--compose-input-border: var(--textinputs);
+
+	/* search colors */
+	--search-container-background: var(--pagecolor);
+	--search-input-background: var(--textinputs);
+	--primary: var(--whitetext);
+	--input-placeholder: var(--secondarytext);
+
+	/* messages */
+	--message-primary: var(--whitetext);
+	--incoming-background: var(--pagecolor);
+	--outgoing-background: var(--pagecolor);
+	--system-message-background: var(--pagecolor);
+	--bubble-meta: var(--secondarytext);
+	--notification-e2e-background: var(--pagecolor);
+
+	/* misc */
+	--audio-progress-incoming: var(--green);
+	--audio-progress-outgoing: var(--green);
+	--active-tab-marker: var(--green);
+}
+
+body {
+	font-family: var(--screenfont);
+	background-color: var(--pagecolor);
+}
+
+a {
+	color: var(--greenish);
+	text-decoration: underline;
+}
+
+/* override scrollbar color */
+.dark * {
+	scrollbar-color: var(--scrollbars) transparent;
+}
+
+/* remove messages panel background image */
+[data-asset-chat-background-dark] {
+	background: none;
+}
+
+/* remove line under intro screen */
+._2zkCi::after {
+	content: none;
+}
+
+/* remove app shadow */
+html[dir] .app-wrapper-web ._3QfZd {
+	box-shadow: none;
+}
+
+/* remove message box shadow */
+html[dir] ._20zqk {
+	box-shadow: none;
+}
+
+/* override outgoing messages border */
+html[dir] .message-out ._3XpKm {
+	border: 1px solid rgba(var(--gradient2),0.9);
+}
+
+/* override incoming messages border */
+html[dir] .message-in ._3XpKm {
+	border: 1px solid rgba(var(--gradient4),0.9);
+}
+
+/* override incoming/outgoing border radiuses */
+html[dir="ltr"] .message-in ._1-U5A ._3XpKm {
+	border-top-left-radius: 7.5px;
+}
+
+html[dir="ltr"] .message-out ._1-U5A ._3XpKm {
+	border-top-right-radius: 7.5px;
+}
+
+/* fix ugly gaps between elements */
+* {
+	scrollbar-width: auto;
+}
+
+/* message replies */
+html[dir] .message-in ._3Ppzm,
+html[dir] .message-out ._3Ppzm {
+	background: none;
+}
+
+html[dir] ._3Ppzm {
+	background-color: var(--textinputs) !important;
+}
+
+.dark .bg-color-1,
+.dark .bg-color-2 {
+	background: var(--pagecolor) !important;
+}
+
+.dark .color-1,
+.dark .color-2 {
+	color: var(--bodytext) !important;
+}
+
+._31DtU {
+	color: var(--midtext);
+}
+
+/* override attachment text color */
+.JpOli {
+	color: var(--midtext);
+}
+
+/* remove contact and search borders */
+html[dir] .TbtXF,
+html[dir] .dark ._3LX7r {
+	border: none;
+}
+
+/* hide 'allow notifications' message */
+._3z9_h {
+	display: none;
+}
+
+html[dir] ._3yWey {
+	background: none;
+}
+
+html[dir=ltr] ._2copG._18oGY,
+html[dir=ltr] ._1UyGr._18oGY {
+	background: var(--pagecolor);
+}
+
+html[dir] .zaKsw:after {
+	border-top: none;
+}
+=======
 .dark {
 	/* panels */
 	--startup-background: var(--pagecolor);

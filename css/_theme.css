@@ -1,9 +1,10 @@
+<<<<<<< HEAD
 :root {
 	/* define your theme's colors here: */
 	--textinputs:		#171721;	/* Tokyo Night: BaseColor */
 	--pagecolor:		#1C1D2B;	/* Tokyo Night: Darker #171721; */
 	--scrollbars:		#393B54;
-	--secondarytext:		#4D5575;
+	--secondarytext:	#4D5575;
 	--midtext:			#8387A3;
 	--whitetext:		#A0A3BD;	/* Tokyo Night: White */
 	--bodytext:			#A0A3BD;	/* Tokyo Night: MidGrey */
@@ -11,7 +12,7 @@
 	--replybkg:			#B699E3;	/* Tokyo Night: VioletText */
 	--yellowish:		#FFA86F;	/* #C9875B; */
 	--activecolor:		#09c1dc;
-	--red:			#F88199;	/* Tokyo Night: NebulaClose */
+	--red:				#F88199;	/* Tokyo Night: NebulaClose */
 	--reddish:			#FF859D;	/* Lightened version of NebulaClose */
 	--green:			#C1F487;	/* Tokyo Night: NebulaMax */
 	--greenish:			#A8D475;
