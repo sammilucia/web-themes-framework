@@ -50,6 +50,19 @@ If you can mention "Web Themes Framework" when you release this will help people
 - Implement LinkedIn, Twitter, Teams, ...
 
 ## Changelog
+### Version 0.6.4 - 5 Aug 2022
+
+- Fixed a bunch of problems with the YouTube theme
+
+### Version 0.6.2 - 4 Aug 2022
+
+- Updated several themes to fix bugs due to changes with websites
+- Added Firefox compatibility
+
+### Version 0.4.8 - 18 Jul 2021
+
+- Themed main DuckDuckGo page (before searching)
+
 ### Version 0.4.7 - 11 Jul 2021
 - Themed Instagram messages
 - Fixed bugs with Slack buttons due to Slack internal changes

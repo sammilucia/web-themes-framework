@@ -7,7 +7,7 @@
  
     "author": "Samantha Glocker",
 
-    "version": "0.4.7",
+    "version": "0.6.4",
 
     "icons":
     {
@@ -60,5 +60,13 @@
         "css/linkedin.css",
         "css/duckduckgo.css",
         "css/instagram.css"
-    ]
+    ],
+    
+    "applications":
+    {
+    	"gecko":
+    	{
+			"id": "info@trellox.io"
+		}
+	}
 }

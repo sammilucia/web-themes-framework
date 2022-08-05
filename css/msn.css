@@ -1,0 +1,9 @@
+/* Define theme variables */
+.companyLogoHolder_aboveSearch {
+  display: none;
+}
+
+:host([appearance="accent"]) {
+  color: #626262;
+  background-color: #9f9f9f;
+}

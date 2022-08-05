@@ -2,25 +2,93 @@ html:not(.style-scope)[dark], :not(.style-scope)[dark] {
     --yt-spec-brand-background-solid: var(--pagecolor);
     --yt-spec-brand-background-primary: var(--pagecolor);
     --yt-spec-general-background-a: var(--pagecolor);
-    --yt-spec-text-primary: var(--whitetext);
+    --yt-spec-text-primary: var(--midtext);
     --yt-spec-text-secondary: var(--secondarytext);
     --yt-spec-icon-disabled: var(--scrollbars);
     --yt-spec-badge-chip-background: var(--textinputs);
+    --yt-spec-button-chip-background: var(--textinputs);
+    --yt-spec-button-chip-background-hover: var(--midtext);
     --yt-spec-brand-icon-inactive: var(--secondarytext);
     --yt-spec-brand-subscribe-button-background: var(--yt-spec-brand-button-background);
     --yt-spec-10-percent-layer: var(--textinputs);
-    --yt-button-color: var(--secondarytext);
-    --yt-spec-icon-inactive: var(--secondarytext);
+    --yt-button-color: var(--midtext);
+    --yt-spec-icon-inactive: var(--midtext);
     --yt-endpoint-color: var(--replybkg);
     --yt-spec-call-to-action: var(--bodytext);
     --ytd-searchbox-text-color: var(--whitetext);
     --ytd-searchbox-legacy-button-border-color: var(--pagecolor);
     --ytd-searchbox-legacy-button-color: var(--pagecolor);
+    --ytd-searchbox-background: var(--textinputs);
+    --yt-spec-icon-active-other: var(--midtext);
+}
+
+/* override fonts */
+body,
+#search-input.ytd-searchbox-spt input,
+.title.ytd-guide-entry-renderer,
+ytd-rich-grid-media[mini-mode] #video-title.ytd-rich-grid-media,
+ytd-video-meta-block[rich-meta][mini-mode] #byline-container.ytd-video-meta-block,
+ytd-video-meta-block[rich-meta][mini-mode] #metadata-line.ytd-video-meta-block,
+ytd-rich-grid-slim-media[mini-mode] #video-title.ytd-rich-grid-slim-media,
+ytd-video-meta-block[rich-meta] #metadata-line.ytd-video-meta-block,
+ytd-expander.ytd-video-secondary-info-renderer,
+ytd-video-primary-info-renderer[has-date-text] #info-text.ytd-video-primary-info-renderer,
+ytd-compact-radio-renderer.use-ellipsis #video-title.ytd-compact-radio-renderer,
+ytd-video-meta-block:not([rich-meta]) #metadata-line.ytd-video-meta-block,
+ytd-video-meta-block:not([rich-meta]) #byline-container.ytd-video-meta-block,
+ytd-video-view-count-renderer[small],
+ytd-commentbox:not([is-backstage-post]) yt-formatted-string#contenteditable-textarea.ytd-commentbox,
+ytd-comment-action-buttons-renderer:not([use-comment-icon]) #reply-button.ytd-comment-action-buttons-renderer ytd-button-renderer.ytd-comment-action-buttons-renderer:not([is-icon-button]).ytd-comment-action-buttons-renderer,
+ytd-comment-action-buttons-renderer:not([use-comment-icon]) #reply-button-end.ytd-comment-action-buttons-renderer ytd-button-renderer.ytd-comment-action-buttons-renderer:not([is-icon-button]).ytd-comment-action-buttons-renderer,
+.more-button.ytd-video-secondary-info-renderer,
+.less-button.ytd-video-secondary-info-renderer,
+.more-button.ytd-comment-renderer,
+.less-button.ytd-comment-renderer,
+.published-time-text.ytd-comment-renderer,
+.count-text.ytd-comments-header-renderer,
+.input-content.tp-yt-paper-input-container > input, .input-content.tp-yt-paper-input-container > iron-input, .input-content.tp-yt-paper-input-container > textarea,
+.input-content.tp-yt-paper-input-container > iron-autogrow-textarea, .input-content.tp-yt-paper-input-container > .paper-input-input,
+#channel-name.ytd-video-owner-renderer,
+#owner-sub-count.ytd-video-owner-renderer,
+#channel-name.long-byline.ytd-video-meta-block,
+#info-strings.ytd-video-primary-info-renderer,
+#video-title.ytd-compact-video-renderer,
+#content-text.ytd-comment-renderer,
+#vote-count-middle.ytd-comment-action-buttons-renderer {
+    font-family: var(--screenfont) !important;
+}
+
+/* override chip colors */
+yt-chip-cloud-chip-renderer[chip-style=STYLE_DEFAULT][selected],
+yt-chip-cloud-chip-renderer[chip-style=STYLE_HOME_FILTER][selected] {
+    background-color: var(--midtext);
+}
+
+yt-chip-cloud-chip-renderer[chip-style=STYLE_DEFAULT],
+yt-chip-cloud-chip-renderer[chip-style=STYLE_HOME_FILTER],
+yt-chip-cloud-chip-renderer[chip-style=STYLE_REFRESH_TO_NOVEL_CHIP] {
+    color: var(--secondarytext);
+}
+
+yt-chip-cloud-chip-renderer[chip-style=STYLE_DEFAULT]:hover,
+yt-chip-cloud-chip-renderer[chip-style=STYLE_HOME_FILTER]:hover,
+yt-chip-cloud-chip-renderer[chip-style=STYLE_REFRESH_TO_NOVEL_CHIP]:hover {
+    color: var(--textinputs);
 }
 
 /* override search box styling */
 #search-input.ytd-searchbox-spt input {
-    background-color: var(--pagecolor);
+    background-color: var(--textinputs);
+}
+
+input[placeholder],
+::-webkit-input-placeholder {
+    color: var(--secondarytext) !important;
+  }
+
+#container.ytd-searchbox {
+    border-radius: 50px;
+    padding: 2px 26px;
 }
 
 #container.ytd-searchbox {
