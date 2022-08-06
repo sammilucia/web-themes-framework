@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 :root {
 	/* define your theme's colors here: */
 	--textinputs:		#171721;	/* Tokyo Night: BaseColor */
@@ -6,7 +5,7 @@
 	--scrollbars:		#393B54;
 	--secondarytext:	#4D5575;
 	--midtext:			#8387A3;
-	--whitetext:		#A0A3BD;	/* Tokyo Night: White */
+	--whitetext:		#a7aac5;	/* Tokyo Night: White */
 	--bodytext:			#A0A3BD;	/* Tokyo Night: MidGrey */
 	--purpletext:		#C3A4F8;	/* Tokyo Night: PurpleGradient1 */
 	--replybkg:			#B699E3;	/* Tokyo Night: VioletText */

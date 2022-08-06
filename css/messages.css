@@ -1,0 +1,61 @@
+body,
+body.dark-theme,
+body.dark-theme mw-main-nav {
+    --scroll-bar-bg-color: var(--scrollbars) !important;
+    --main-nav-host-bg-color: var(--pagecolor) !important;
+    --main-nav-host-border-color: var(--pagecolor) !important;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+div.text-msg,
+span.ng-star-inserted {
+    font-family: var(--screenfont) !important;
+}
+
+.snippet-timestamp {
+    color: var(--secondarytext) !important;
+}
+
+div.conversation.ng-tns-c256-0,
+div.main-nav-header,
+div.conv-container,
+div.input-background {
+    background: var(--pagecolor) !important;
+}
+
+mws-message-part-content.enable-bg-color.enable-text-color.incoming {
+    background-color: var(--scrollbars) !important;
+    color: var(--whitetext) !important;
+}
+
+div.input-box,
+textarea.input {
+    background-color: var(--textinputs) !important;
+    font-family: var(--screenfont) !important;
+}
+
+mws-header.header {
+    background-color: var(--pagecolor);
+    box-shadow: none;
+    color: var(--midtext) !important;
+}
+
+h3.name {
+    color: var(--whitetext) !important;
+}
+
+mws-conversation-snippet {
+    color: var(--secondarytext) !important;
+}
+
+mws-icon {
+    fill: var(--midtext) !important;
+}
+
+::placeholder {
+    color: var(--secondarytext) !important;
+}

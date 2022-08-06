@@ -51,6 +51,12 @@ If you can mention "Web Themes Framework" when you release this will help people
 - Implement LinkedIn, Twitter, Teams, ...
 
 ## Changelog
+### Version 0.7.0 - 5 Aug 2022
+
+- Updated injector to differentiate URLs that are 3 deep (e.g. messages.google.com)
+- Added Started Messages
+- Fixed a whole bunch of Slack inconsistencies (mostly popups)
+
 ### Version 0.6.4 - 5 Aug 2022
 
 - Fixed a bunch of problems with the YouTube theme

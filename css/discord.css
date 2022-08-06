@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 /* overwrite Discord's variables with our own */
 .theme-dark {
     --header-primary: var(--purpletext);
@@ -102,7 +101,7 @@ body {
 .offline-3nJYBR {
   opacity: 1.0;
 }
-=======
+
 /* overwrite Discord's variables with our own */
 .theme-dark {
     --header-primary: var(--purpletext);
@@ -206,4 +205,3 @@ body {
 .offline-3nJYBR {
   opacity: 1.0;
 }
->>>>>>> 1e47d91251e02c37faaebc7d2c9a7dccde9a1aa1

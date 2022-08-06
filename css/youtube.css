@@ -20,6 +20,7 @@ html:not(.style-scope)[dark], :not(.style-scope)[dark] {
     --ytd-searchbox-legacy-button-color: var(--pagecolor);
     --ytd-searchbox-background: var(--textinputs);
     --yt-spec-icon-active-other: var(--midtext);
+    --yt-spec-10-percent-layer: var(--scrollbars);
 }
 
 /* override fonts */

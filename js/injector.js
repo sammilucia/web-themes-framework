@@ -1,15 +1,21 @@
-<<<<<<< HEAD
-"use strict";
-
-// get name of site from URL so we know which theme to use:
+/* get name of site from URL so we know which theme to use: */
 const urlParts = window.location.hostname.split( '.' );
-const cssName = urlParts[ urlParts.length - 2 ];
 
-// insert theme colors and fonts:
+console.log( urlParts );
+
+let cssName = urlParts[ urlParts.length - 2 ];
+
+if( cssName == 'google' ) {
+	cssName = urlParts[ urlParts.length - 3 ];
+}
+
+console.log( 'WTF: Detected ' + cssName );
+
+/* insert theme colors and fonts: */
 addStyleSheet( '_theme' );
 addStyleSheet( cssName );
 
-// link CSS files in site <head>:
+/* link CSS files in site <head>: */
 function addStyleSheet(styleSheet)
 {
 	const a		= chrome.runtime.getURL( 'css/' + styleSheet + '.css' ),
@@ -20,7 +26,6 @@ function addStyleSheet(styleSheet)
 	link.id		= "webThemesFramework";
 	link.href	= a;
 
-	console.log( 'injecting Web Themes Framework' );
+	console.log( 'WTF: injecting ' + styleSheet + '.css' );
 	document.head.appendChild(link);
 }
->>>>>>> 1e47d91251e02c37faaebc7d2c9a7dccde9a1aa1
