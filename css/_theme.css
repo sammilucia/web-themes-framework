@@ -1,20 +1,20 @@
 :root {
 	/* define your theme's colors here: */
-	--textinputs:		#171721;	/* Tokyo Night: BaseColor */
-	--pagecolor:		#1C1D2B;	/* Tokyo Night: Darker #171721; */
-	--scrollbars:		#393B54;
-	--secondarytext:	#4D5575;
-	--midtext:			#8387A3;
-	--whitetext:		#a7aac5;	/* Tokyo Night: White */
-	--bodytext:			#A0A3BD;	/* Tokyo Night: MidGrey */
-	--purpletext:		#C3A4F8;	/* Tokyo Night: PurpleGradient1 */
-	--replybkg:			#B699E3;	/* Tokyo Night: VioletText */
+	--textinputs:		#241f31;	/* Tokyo Night: BaseColor */
+	--pagecolor:		#151022;	/* Tokyo Night: Darker #171721; */
+	--scrollbars:		#393545;
+	--secondarytext:	#66626f;
+	--midtext:		#66626f;
+	--whitetext:		#e9e9ea;	/* Tokyo Night: White */
+	--bodytext:		#9f9cae;	/* Tokyo Night: MidGrey */
+	--purpletext:		#19ccd5;	/* Tokyo Night: PurpleGradient1 */
+	--replybkg:		#B699E3;	/* Tokyo Night: VioletText */
 	--yellowish:		#FFA86F;	/* #C9875B; */
 	--activecolor:		#09c1dc;
-	--red:				#F88199;	/* Tokyo Night: NebulaClose */
-	--reddish:			#FF859D;	/* Lightened version of NebulaClose */
-	--green:			#C1F487;	/* Tokyo Night: NebulaMax */
-	--greenish:			#A8D475;
+	--red:			#F88199;	/* Tokyo Night: NebulaClose */
+	--reddish:		#FF859D;	/* Lightened version of NebulaClose */
+	--green:		#C1F487;	/* Tokyo Night: NebulaMax */
+	--greenish:		#abef61;
 
 	--gradient1:		182, 153, 233;	/* Tokyo Night: PurpleGradient1 */
 	--gradient2:		195, 164, 248;	/* Tokyo Night: VioletGradient2 */
@@ -22,5 +22,5 @@
 	--gradient4:		136, 175, 255;
 
 	/* define your theme's fonts here: */
-	--screenfont:		'JetBrainsMono Nerd Font Mono', sans-serif;
+	--screenfont:		"Hasklug Nerd Font", Hasklig, sans-serif;
 }

@@ -1,0 +1,7 @@
+/* overwrite Discord's variables with our own */
+body,
+.w-gl,
+.footer
+{
+  font-family: var(--screenfont) !important;
+}

@@ -35,6 +35,7 @@
     [{
         "matches":
         [
+            "*://*.startpage.com/*",
             "*://*.messenger.com/*",
             "*://*.facebook.com/messages/*",
             "*://discord.com/*",
@@ -52,6 +53,7 @@
     "web_accessible_resources":
     [
         "css/_theme.css",
+        "css/startpage.css",
         "css/config.css",
         "css/messenger.css",
         "css/discord.css",
